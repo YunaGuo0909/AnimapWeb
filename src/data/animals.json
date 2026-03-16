@@ -1,0 +1,390 @@
+[
+  {
+    "id": "animal-001",
+    "name": "Amur Leopard",
+    "scientificName": "Panthera pardus orientalis",
+    "coordinates": [131.9, 43.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "One of the rarest big cats in the world.",
+    "fullDesc": "The Amur leopard is a solitary, nocturnal leopard subspecies native to the Primorye region of southeastern Russia and northern China. They are known for their thick, beautiful coats and incredible leaping ability.",
+    "images": ["https://images.unsplash.com/photo-1598974542284-5f21223df1fc?w=800"],
+    "videoUrl": "https://www.youtube.com/embed/aZR2Bwiqzjw",
+    "conservationEfforts": [
+      "Anti-poaching patrols established in key habitats.",
+      "Creation of the Land of the Leopard National Park in Russia."
+    ],
+    "localOrganizationUrl": "https://wwf.ru/en/"
+  },
+  {
+    "id": "animal-002",
+    "name": "Red Kangaroo",
+    "scientificName": "Osphranter rufus",
+    "coordinates": [133.7, -25.2],
+    "starRating": 2,
+    "status": "Least Concern",
+    "shortDesc": "The largest of all kangaroos, found across mainland Australia.",
+    "fullDesc": null,
+    "images": ["https://images.unsplash.com/photo-1533422902779-babd49113645?w=500"],
+    "videoUrl": null,
+    "conservationEfforts": [],
+    "localOrganizationUrl": "https://www.wildlife.org.au/"
+  },
+  {
+    "id": "animal-003",
+    "name": "Giant Panda",
+    "scientificName": "Ailuropoda melanoleuca",
+    "coordinates": [103.8, 32.0],
+    "starRating": 5,
+    "status": "Vulnerable",
+    "shortDesc": "Iconic black-and-white bear native to China.",
+    "fullDesc": "The giant panda lives in bamboo forests in the mountains of central China. Conservation efforts have helped move it from Endangered to Vulnerable.",
+    "images": ["https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Protected reserves and bamboo corridors.",
+      "Captive breeding and reintroduction programs."
+    ],
+    "localOrganizationUrl": "https://www.wwf.org.uk/"
+  },
+  {
+    "id": "animal-004",
+    "name": "Snow Leopard",
+    "scientificName": "Panthera uncia",
+    "coordinates": [87.0, 35.0],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "Elusive big cat of the high mountains of Central and South Asia.",
+    "fullDesc": "Snow leopards inhabit alpine and subalpine zones. They are threatened by poaching and habitat loss.",
+    "images": ["https://images.unsplash.com/photo-1513245543132-31f507417b26?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Community-based conservation and anti-poaching.",
+      "Transboundary landscape initiatives."
+    ],
+    "localOrganizationUrl": "https://www.snowleopard.org/"
+  },
+  {
+    "id": "animal-005",
+    "name": "African Elephant",
+    "scientificName": "Loxodonta africana",
+    "coordinates": [24.0, -2.0],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "Largest land animal, found across sub-Saharan Africa.",
+    "fullDesc": "African elephants face severe threats from poaching and habitat fragmentation. Forest and savanna subspecies are both at risk.",
+    "images": ["https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Anti-poaching and ivory trade bans.",
+      "Corridor and protected area management."
+    ],
+    "localOrganizationUrl": "https://www.wwf.org.uk/"
+  },
+  {
+    "id": "animal-uk-001",
+    "name": "Scottish Wildcat",
+    "scientificName": "Felis silvestris silvestris",
+    "coordinates": [-4.2, 56.8],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "Britain's only native cat; fewer than 300 remain in the Scottish Highlands.",
+    "fullDesc": "The Scottish wildcat is a distinct population of the European wildcat. Hybridisation with feral domestic cats, disease and habitat loss have driven it to the brink of extinction. It is protected under the Wildlife and Countryside Act 1981.",
+    "images": ["https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800"],
+    "videoUrl": "https://www.youtube.com/embed/ANuF_5gbt-I",
+    "conservationEfforts": [
+      "Scottish Wildcat Action: trap-neuter-vaccinate-release of feral cats in priority areas.",
+      "Captive breeding and reinforcement plans; habitat protection in the Highlands."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-002",
+    "name": "Red Squirrel",
+    "scientificName": "Sciurus vulgaris",
+    "coordinates": [-1.97, 50.69],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "Native squirrel; in southern England found on Brownsea Island (Dorset) and Isle of Wight; also Scotland, Anglesey and a few other strongholds.",
+    "fullDesc": "Red squirrels have declined sharply due to competition and disease from introduced grey squirrels (squirrelpox). They are protected under the Wildlife and Countryside Act and are a priority species for conservation in the UK.",
+    "images": ["https://images.unsplash.com/photo-1644770860999-4c711144174a?w=800"],
+    "videoUrl": "https://www.youtube.com/embed/hIKLOWZYldE",
+    "conservationEfforts": [
+      "Grey squirrel control and monitoring in red squirrel areas.",
+      "Reforestation and habitat connectivity; Red Squirrel Survival Trust and local groups."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-003",
+    "name": "Natterjack Toad",
+    "scientificName": "Epidalea calamita",
+    "coordinates": [-2.9, 53.4],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "Distinctive yellow-striped toad of coastal dunes and heathland; rare in the UK.",
+    "fullDesc": "The natterjack toad is one of the UK's rarest amphibians, confined to coastal sand dunes and lowland heath. It is protected under the Wildlife and Countryside Act and requires specific breeding habitat (warm, shallow pools).",
+    "images": ["https://images.unsplash.com/photo-1749929864696-484eaa98a6d2?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Creation and restoration of breeding pools; habitat management on heath and dunes.",
+      "Translocation and reintroduction schemes; monitoring by Amphibian and Reptile Conservation."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-004",
+    "name": "Hazel Dormouse",
+    "scientificName": "Muscardinus avellanarius",
+    "coordinates": [-0.6, 51.8],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "Small arboreal rodent of woodland and hedgerows; declining across England and Wales.",
+    "fullDesc": "The hazel dormouse depends on diverse woodland and hedgerows for nesting and hibernation. Loss of habitat and poor management have caused significant decline. It is fully protected under the Wildlife and Countryside Act and a UK BAP priority species.",
+    "images": ["https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "National Dormouse Monitoring Programme; nest box schemes and habitat restoration.",
+      "Hedgerow and woodland management guidance; reintroductions to restored sites."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-005",
+    "name": "Pine Marten",
+    "scientificName": "Martes martes",
+    "coordinates": [-4.8, 56.4],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "Tree-dwelling mustelid; recovering in Scotland and reintroduced to Wales and England.",
+    "fullDesc": "Pine martens were persecuted and lost much of their range. They remain mainly in Scotland and have been reintroduced to Wales and parts of England. They help control grey squirrels and are protected under the Wildlife and Countryside Act.",
+    "images": ["https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Reintroduction projects in Wales (Vincent Wildlife Trust) and England.",
+      "Forest protection and connectivity; citizen science and camera-trap monitoring."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-006",
+    "name": "Sand Lizard",
+    "scientificName": "Lacerta agilis",
+    "coordinates": [-1.8, 50.7],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "UK's rarest reptile; confined to heathland and coastal dunes in southern England.",
+    "fullDesc": "The sand lizard is restricted to lowland heath and sand dunes. Habitat loss and fragmentation have made it highly threatened. It is strictly protected under the Wildlife and Countryside Act and the Conservation of Habitats and Species Regulations.",
+    "images": ["https://images.unsplash.com/photo-1619387632550-dbeaeb726af1?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Heathland and dune restoration; creation of egg-laying banks.",
+      "Reintroduction to former sites; monitoring by Amphibian and Reptile Conservation."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-007",
+    "name": "Basking Shark",
+    "scientificName": "Cetorhinus maximus",
+    "coordinates": [-5.5, 55.2],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "World's second-largest fish; seasonal visitor to UK waters, especially off Scotland and SW England.",
+    "fullDesc": "Basking sharks are filter-feeders and were historically hunted. They are now protected in UK waters and listed under the Wildlife and Countryside Act. Boat traffic and entanglement remain concerns.",
+    "images": ["https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Legal protection from capture, injury and disturbance; Marine Conservation Zones.",
+      "Research and tagging by the Marine Conservation Society and others."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-008",
+    "name": "Large Blue Butterfly",
+    "scientificName": "Phengaris arion",
+    "coordinates": [-2.6, 51.0],
+    "starRating": 5,
+    "status": "Vulnerable",
+    "shortDesc": "Extinct in the UK in 1979; successfully reintroduced via conservation of its ant host.",
+    "fullDesc": "The large blue's larvae depend on a single species of red ant. Understanding this ecology allowed successful reintroduction from continental Europe. It is now established at restored sites in southern England and is fully protected.",
+    "images": ["https://images.unsplash.com/photo-1576031450181-9fcab802bb5a?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Grazing and habitat management to support the host ant Myrmica sabuleti.",
+      "Reintroduction programme led by the Royal Society of Wildlife Trusts and partners."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-009",
+    "name": "Freshwater Pearl Mussel",
+    "scientificName": "Margaritifera margaritifera",
+    "coordinates": [-4.0, 57.3],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "Long-lived mussel of clean, fast-flowing rivers; severely declined across Scotland and Wales.",
+    "fullDesc": "Freshwater pearl mussels can live over 100 years and need pristine river habitat and salmonid hosts for larvae. Pollution, river engineering and historical pearl fishing have caused severe decline. They are a priority under the Habitats Directive.",
+    "images": ["https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "River restoration and reduction of sedimentation; catchment-scale water quality work.",
+      "Captive breeding and restocking; partnership projects (e.g. Pearls in Peril)."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-010",
+    "name": "Adder",
+    "scientificName": "Vipera berus",
+    "coordinates": [-1.2, 52.5],
+    "starRating": 3,
+    "status": "Protected",
+    "shortDesc": "UK's only venomous snake; widespread but declining in heathland, woodland and grassland.",
+    "fullDesc": "Adders are protected under the Wildlife and Countryside Act from killing and injury. Habitat loss and persecution have contributed to local declines. They are an indicator of healthy heath and grassland.",
+    "images": ["https://images.unsplash.com/photo-1677847664291-71dd726d7688?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Legal protection; habitat management for basking and hibernation sites.",
+      "Awareness campaigns to reduce persecution; recording via Amphibian and Reptile Conservation."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-011",
+    "name": "Hedgehog",
+    "scientificName": "Erinaceus europaeus",
+    "coordinates": [-0.1, 51.5],
+    "starRating": 3,
+    "status": "Vulnerable",
+    "shortDesc": "Familiar mammal in sharp decline; protected under the Wildlife and Countryside Act.",
+    "fullDesc": "Hedgehog numbers have fallen dramatically in the UK due to loss of hedgerows, gardens and prey, and road mortality. They are legally protected and a focus of many community and garden wildlife projects.",
+    "images": ["https://images.unsplash.com/photo-1470854989922-5be2f7456d78?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Hedgehog Street and garden connectivity campaigns; wildlife-friendly gardening.",
+      "Research and monitoring (e.g. PTES); rescue and rehabilitation networks."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-012",
+    "name": "Smooth Snake",
+    "scientificName": "Coronella austriaca",
+    "coordinates": [-1.6, 50.8],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "Rare, non-venomous snake of heathland in southern England.",
+    "fullDesc": "The smooth snake is confined to a few heathland sites in Dorset, Hampshire and Surrey. It is fully protected and depends on well-managed heath with adequate cover and prey (lizards and small mammals).",
+    "images": ["https://images.unsplash.com/photo-1692290022847-912efc886d5d?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Heathland restoration and management; protection from development.",
+      "Monitoring and research; strict legal protection under UK and EU law."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-013",
+    "name": "Water Vole",
+    "scientificName": "Arvicola amphibius",
+    "coordinates": [-1.5, 52.2],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "UK's fastest declining mammal; lost most of its range due to mink and habitat loss.",
+    "fullDesc": "Water voles are protected under the Wildlife and Countryside Act. In the UK they are Endangered (Britain Red List); populations have fallen sharply since the 1970s. They live along rivers, ditches and wetlands. The Wildlife Trusts run recovery projects and habitat creation.",
+    "images": ["https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Mink control and habitat restoration along waterways.",
+      "Reintroductions and monitoring; Wildlife Trusts water vole projects."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-014",
+    "name": "European Otter",
+    "scientificName": "Lutra lutra",
+    "coordinates": [-3.2, 54.5],
+    "starRating": 4,
+    "status": "Near Threatened",
+    "shortDesc": "Native otter recovered in many UK rivers and coasts after past declines.",
+    "fullDesc": "Otters are protected under the Wildlife and Countryside Act and the Habitats Regulations. After serious decline they have returned to much of England, Wales and Scotland. They need clean rivers and undisturbed banks. The Wildlife Trusts work on river restoration and monitoring.",
+    "images": ["https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "River and wetland restoration; reduction of pollution and disturbance.",
+      "Monitoring and surveys; protection of holt sites."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-015",
+    "name": "Great Crested Newt",
+    "scientificName": "Triturus cristatus",
+    "coordinates": [-0.8, 52.0],
+    "starRating": 5,
+    "status": "Protected",
+    "shortDesc": "European Protected Species; strictly protected in the UK.",
+    "fullDesc": "Great crested newts are listed under the Habitats Regulations and the Wildlife and Countryside Act. It is illegal to kill, injure, disturb or capture them or damage their breeding and resting sites. They use ponds and terrestrial habitat. The Wildlife Trusts create and restore ponds and advise on development.",
+    "images": ["https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Pond creation and restoration; terrestrial habitat management.",
+      "Planning and development advice; licensing and mitigation."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-016",
+    "name": "Grass Snake",
+    "scientificName": "Natrix helvetica",
+    "coordinates": [-0.6, 51.2],
+    "starRating": 3,
+    "status": "Least Concern",
+    "shortDesc": "Non-venomous snake of wetlands and grassland; protected in the UK.",
+    "fullDesc": "Grass snakes are protected under the Wildlife and Countryside Act from killing and injury. They are widespread in England and Wales, often near water. The Wildlife Trusts manage reserves that support them and provide identification and advice.",
+    "images": ["https://images.unsplash.com/photo-1692290022847-912efc886d5d?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Protection of wetlands and grassland; creation of egg-laying sites.",
+      "Awareness and recording; reserve management."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-017",
+    "name": "European Badger",
+    "scientificName": "Meles meles",
+    "coordinates": [-2.0, 53.5],
+    "starRating": 3,
+    "status": "Least Concern",
+    "shortDesc": "Protected under the Protection of Badgers Act; widespread across the UK.",
+    "fullDesc": "Badgers and their setts are protected by the Protection of Badgers Act 1992. They are widespread in the UK but face threats from road traffic, development and disease. The Wildlife Trusts campaign for their protection and run badger vaccination and awareness projects.",
+    "images": ["https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Legal protection of setts; vaccination programmes where appropriate.",
+      "Campaigning and awareness; mitigation for development."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  },
+  {
+    "id": "animal-uk-018",
+    "name": "Eurasian Beaver",
+    "scientificName": "Castor fiber",
+    "coordinates": [-4.0, 57.0],
+    "starRating": 4,
+    "status": "Least Concern",
+    "shortDesc": "Reintroduced to Scotland and England; keystone species for wetlands.",
+    "fullDesc": "Beavers were hunted to extinction in Britain but have been reintroduced in Scotland and several English counties. They create wetlands that benefit many other species. The Wildlife Trusts support licensed reintroductions and monitor wild and enclosed populations.",
+    "images": ["https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Licensed reintroductions and enclosed trial projects.",
+      "Monitoring and research; flood and habitat benefits."
+    ],
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+  }
+]
