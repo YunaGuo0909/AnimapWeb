@@ -6,15 +6,17 @@
     "coordinates": [131.9, 43.5],
     "starRating": 5,
     "status": "Critically Endangered",
-    "shortDesc": "One of the rarest big cats in the world.",
-    "fullDesc": "The Amur leopard is a solitary, nocturnal leopard subspecies native to the Primorye region of southeastern Russia and northern China. They are known for their thick, beautiful coats and incredible leaping ability.",
+    "shortDesc": "One of the rarest big cats in the world, with fewer than 100 individuals remaining in the wild.",
+    "fullDesc": "The Amur leopard is a solitary, nocturnal subspecies native to the Primorye region of southeastern Russia and the Jilin and Heilongjiang provinces of northeastern China. Its extraordinarily thick, pale coat with widely spaced rosettes adapts it to the cold, snowy landscape. Adults can leap more than 6 metres horizontally and 3 metres vertically. Amur leopards are skilled hunters of roe deer, sika deer and hares. The population collapsed due to poaching, prey depletion and habitat loss — in 2007 fewer than 30 individuals were recorded. Intensive protection has since pushed numbers above 100 for the first time in decades.",
     "images": ["https://images.unsplash.com/photo-1598974542284-5f21223df1fc?w=800"],
     "videoUrl": "https://www.youtube.com/embed/aZR2Bwiqzjw",
     "conservationEfforts": [
-      "Anti-poaching patrols established in key habitats.",
-      "Creation of the Land of the Leopard National Park in Russia."
+      "Anti-poaching patrols and camera-trap monitoring across the Land of the Leopard National Park (Russia).",
+      "Cross-border collaboration between Russia and China in the Northeast Tiger and Leopard National Park.",
+      "Prey-species restoration and anti-snare campaigns to safeguard the food chain."
     ],
-    "localOrganizationUrl": "https://wwf.ru/en/"
+    "localOrganizationUrl": "https://wwf.ru/en/",
+    "aiConservation": "Individual leopards are identified from camera-trap photographs using AI rosette-pattern recognition (WildID / ExtractCompare), enabling non-invasive population censuses. FLIR thermal drone footage is processed by ML-based anomaly detection to alert rangers to poachers in buffer zones at night."
   },
   {
     "id": "animal-002",
@@ -23,12 +25,16 @@
     "coordinates": [133.7, -25.2],
     "starRating": 2,
     "status": "Least Concern",
-    "shortDesc": "The largest of all kangaroos, found across mainland Australia.",
-    "fullDesc": null,
+    "shortDesc": "The largest of all kangaroos and the largest native mammal in Australia.",
+    "fullDesc": "Red kangaroos are found across mainland Australia's arid interior. Males can stand 1.8 m tall and weigh 90 kg. They are social animals that form loose groups called 'mobs'. Their powerful hind legs allow speeds of up to 70 km/h and energy-efficient bounding over long distances. Despite being listed Least Concern, populations in some regions fluctuate dramatically with drought cycles and are subject to commercial harvesting.",
     "images": ["https://images.unsplash.com/photo-1533422902779-babd49113645?w=500"],
     "videoUrl": null,
-    "conservationEfforts": [],
-    "localOrganizationUrl": "https://www.wildlife.org.au/"
+    "conservationEfforts": [
+      "Population monitoring by state and territory wildlife agencies.",
+      "Regulated commercial harvesting under national codes of practice."
+    ],
+    "localOrganizationUrl": "https://www.wildlife.org.au/",
+    "aiConservation": "Aerial survey images from fixed-wing aircraft are increasingly processed by computer-vision algorithms to count and classify kangaroos automatically, replacing slow manual tallying. Drought-impact models using satellite NDVI data and ML forecast population stress hotspots for proactive management."
   },
   {
     "id": "animal-003",
@@ -37,15 +43,17 @@
     "coordinates": [103.8, 32.0],
     "starRating": 5,
     "status": "Vulnerable",
-    "shortDesc": "Iconic black-and-white bear native to China.",
-    "fullDesc": "The giant panda lives in bamboo forests in the mountains of central China. Conservation efforts have helped move it from Endangered to Vulnerable.",
+    "shortDesc": "Iconic black-and-white bear native to the mountain bamboo forests of central China.",
+    "fullDesc": "The giant panda lives in the Qinling, Minshan and Qionglai mountain ranges of Sichuan, Shaanxi and Gansu provinces. It relies almost entirely on bamboo, consuming up to 38 kg a day to meet its energy needs. Once listed as Endangered, decades of investment in reserves, anti-poaching and captive breeding allowed its status to be downgraded to Vulnerable in 2016. Wild population estimates stand at around 1,800. Climate change is projected to eliminate more than 35% of current bamboo habitat by 2080, making continued protection critical.",
     "images": ["https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800"],
     "videoUrl": null,
     "conservationEfforts": [
-      "Protected reserves and bamboo corridors.",
-      "Captive breeding and reintroduction programs."
+      "67 nature reserves protecting over 54% of wild panda habitat.",
+      "Bamboo corridor restoration linking fragmented forest patches.",
+      "Captive breeding and reintroduction programme led by the Chengdu Research Base and China Conservation and Research Center."
     ],
-    "localOrganizationUrl": "https://www.wwf.org.uk/"
+    "localOrganizationUrl": "https://www.wwf.org.uk/",
+    "aiConservation": "Chinese Academy of Sciences researchers developed a panda facial-recognition AI that identifies individuals with 94% accuracy from camera-trap images, replacing ear-tag and DNA sampling. ML analysis of satellite imagery tracks bamboo forest fragmentation and connectivity of wildlife corridors in real time."
   },
   {
     "id": "animal-004",
@@ -54,32 +62,796 @@
     "coordinates": [87.0, 35.0],
     "starRating": 4,
     "status": "Vulnerable",
-    "shortDesc": "Elusive big cat of the high mountains of Central and South Asia.",
-    "fullDesc": "Snow leopards inhabit alpine and subalpine zones. They are threatened by poaching and habitat loss.",
+    "shortDesc": "Elusive high-altitude predator of the mountains of Central and South Asia.",
+    "fullDesc": "Snow leopards inhabit alpine and subalpine zones between 3,000 and 4,500 m across 12 countries, from the Russian Altai to the Tibetan Plateau. Their long, thick fur, wide paws and enlarged nasal cavity suit extreme cold and thin air. Estimated at 4,000–6,500 individuals, they are threatened by poaching for bones and skin, retaliatory killing by herders whose livestock they prey on, and accelerating climate change shrinking suitable habitat upward.",
     "images": ["https://images.unsplash.com/photo-1513245543132-31f507417b26?w=800"],
     "videoUrl": null,
     "conservationEfforts": [
-      "Community-based conservation and anti-poaching.",
-      "Transboundary landscape initiatives."
+      "Panthera's PAWS anti-poaching patrol-optimization tool deployed across range states.",
+      "Community-based livestock insurance schemes to reduce retaliatory killing.",
+      "Transboundary landscape conservation initiatives across 12 range countries."
     ],
-    "localOrganizationUrl": "https://www.snowleopard.org/"
+    "localOrganizationUrl": "https://www.snowleopard.org/",
+    "aiConservation": "Panthera's PAWS (Protection Assistant for Wildlife Security) uses machine learning on poaching-patrol data to predict high-risk zones, directing ranger effort more efficiently. GPS-collar movement data fed into ML models reveals seasonal corridors and predicts conflict with herders, enabling targeted intervention."
   },
   {
     "id": "animal-005",
-    "name": "African Elephant",
+    "name": "African Savanna Elephant",
     "scientificName": "Loxodonta africana",
     "coordinates": [24.0, -2.0],
     "starRating": 4,
     "status": "Endangered",
-    "shortDesc": "Largest land animal, found across sub-Saharan Africa.",
-    "fullDesc": "African elephants face severe threats from poaching and habitat fragmentation. Forest and savanna subspecies are both at risk.",
+    "shortDesc": "Earth's largest land animal, essential for maintaining Africa's savanna ecosystems.",
+    "fullDesc": "African savanna elephants range across 37 sub-Saharan countries, living in complex, matriarch-led family groups. They are keystone species: their feeding and movement open up woodland, creating habitat for hundreds of other species. Savanna elephant numbers have fallen by at least 60% over the past 50 years, primarily due to ivory poaching and rapid habitat fragmentation. The species was uplisted from Vulnerable to Endangered in 2021.",
     "images": ["https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800"],
     "videoUrl": null,
     "conservationEfforts": [
-      "Anti-poaching and ivory trade bans.",
-      "Corridor and protected area management."
+      "International ivory trade ban (CITES Appendix I); domestic-market closures in China and the UK.",
+      "Elephant Corridor Project mapping and securing movement routes across 88 critical corridors.",
+      "Community-based conservation and ranger training across range states."
     ],
-    "localOrganizationUrl": "https://www.wwf.org.uk/"
+    "localOrganizationUrl": "https://www.savetheelephants.org/",
+    "aiConservation": "Save the Elephants' Elephant Voices Project uses AI audio classification to distinguish elephant rumbles, trumpets and distress calls, enabling remote monitoring without human presence. Microsoft AI for Earth funds EarthRanger, an ML platform that fuses GPS collar data, ranger positions and threat reports to predict and prevent poaching in real time."
+  },
+  {
+    "id": "animal-asia-001",
+    "name": "Bengal Tiger",
+    "scientificName": "Panthera tigris tigris",
+    "coordinates": [88.5, 22.0],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "The most numerous tiger subspecies, yet still Endangered, with core populations in India and Bangladesh.",
+    "fullDesc": "Bengal tigers inhabit the Indian subcontinent's grasslands, subtropical and tropical moist broadleaf forests and the mangroves of the Sundarbans. India holds roughly 75% of the global wild tiger population (approximately 3,000 individuals). Despite dramatic recovery from fewer than 1,800 in 2010, tigers remain threatened by poaching for the traditional medicine trade, habitat loss to agriculture and growing human-tiger conflict in forest-edge villages.",
+    "images": ["https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Project Tiger (India): 53 designated tiger reserves with buffer zones.",
+      "TRAFFIC-led anti-poaching intelligence networks targeting bone and skin traders.",
+      "Community forest-rights and ecotourism revenue-sharing to reduce conflict."
+    ],
+    "localOrganizationUrl": "https://www.wwfindia.org/",
+    "aiConservation": "WCS India's TigerFace AI identifies individual tigers from camera-trap images by unique stripe patterns, replacing costly radio-collar surveys. ML models trained on livestock-attack records and satellite land-cover data generate heat maps of human-tiger conflict risk zones, allowing pre-emptive deployment of conflict-mitigation teams."
+  },
+  {
+    "id": "animal-asia-002",
+    "name": "Sumatran Orangutan",
+    "scientificName": "Pongo abelii",
+    "coordinates": [97.5, 3.6],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The most endangered great ape, found only in the rainforests of northern Sumatra.",
+    "fullDesc": "Sumatran orangutans are highly intelligent, semi-solitary primates that spend almost all of their lives in the forest canopy. They are the most socially active of the three orangutan species and have been observed using tools, building elaborate nests and engaging in cultural behaviours transmitted across generations. Rampant deforestation for palm oil and paper-pulp plantations has reduced their range by more than 80% since 1900. The wild population is estimated at around 13,800 — a catastrophic decline that classifies them Critically Endangered.",
+    "images": ["https://images.unsplash.com/photo-1540573133-6b6e1fba7a2a?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Rainforest protection and restoration by the Sumatran Orangutan Conservation Programme (SOCP).",
+      "Confiscation and rehabilitation of illegally held orangutans; reintroduction to protected forests.",
+      "Consumer-facing campaigns to promote certified sustainable palm oil (RSPO)."
+    ],
+    "localOrganizationUrl": "https://www.orangutan.org/",
+    "aiConservation": "Rainforest Connection (RFCx) deploys solar-powered acoustic sensors in the Sumatran forest canopy; real-time ML analysis of audio streams detects chainsaw and truck sounds, triggering instant alerts to forest rangers — with response times measured in minutes rather than days. Satellite imagery deforestation detection models (Global Forest Watch) using ML quantify habitat loss weekly."
+  },
+  {
+    "id": "animal-asia-003",
+    "name": "Javan Rhino",
+    "scientificName": "Rhinoceros sondaicus",
+    "coordinates": [105.3, -7.0],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "Possibly the rarest large mammal on Earth — only around 76 individuals survive in one park.",
+    "fullDesc": "The Javan rhino once ranged from northeast India through mainland Southeast Asia to Sumatra and Java. Today the entire world population is confined to Ujung Kulon National Park on the western tip of Java, Indonesia. Unlike other rhinos, the male has a single horn; females may have none. They are solitary browsers of dense tropical forest undergrowth. The last individual outside Indonesia was shot in Vietnam's Cat Tien National Park in 2010. The species is threatened not only by poaching but also by a single catastrophic event — disease, tsunami, or volcanic eruption — wiping out the only population.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Javan_Rhinoceros.jpg/800px-Javan_Rhinoceros.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Intensive camera-trap monitoring network across Ujung Kulon (over 120 cameras).",
+      "Removal of invasive Arenga palm that outcompetes preferred rhino browse plants.",
+      "Anti-poaching ranger units; community engagement with local fishing villages."
+    ],
+    "localOrganizationUrl": "https://www.irf.org/",
+    "aiConservation": "Deep-learning models trained on thousands of Ujung Kulon camera-trap images automate individual rhino identification by horn and body shape, tracking all 76 known animals without tranquillisation. Acoustic AI monitors for chainsaw and boat-engine intrusions in the marine buffer zone. Population viability models incorporating climate-change projections guide habitat expansion planning."
+  },
+  {
+    "id": "animal-asia-004",
+    "name": "Chinese Pangolin",
+    "scientificName": "Manis pentadactyla",
+    "coordinates": [114.0, 23.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The world's most trafficked mammal — a scale-covered insectivore decimated by illegal trade.",
+    "fullDesc": "Pangolins are the only mammals entirely covered in protective keratin scales. The Chinese pangolin once ranged widely across southern China, Taiwan, Vietnam, Nepal and neighbouring countries. It feeds nocturnally on ants and termites, excavating mounds with powerful claws and a sticky 40-cm tongue. All eight pangolin species are threatened; the four Asian species are the most severely impacted by commercial poaching to supply Chinese and Vietnamese traditional medicine markets, where both scales and meat are highly valued. An estimated one million pangolins were trafficked globally between 2000 and 2013.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Manis_javanica.jpg/800px-Manis_javanica.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "CITES Appendix I listing (2017) prohibiting all international commercial trade.",
+      "Pangolin-specific anti-trafficking units and intelligence networks in China and Vietnam.",
+      "Breeding and rehabilitation centres in Taiwan and mainland China; legal-reform advocacy."
+    ],
+    "localOrganizationUrl": "https://www.traffic.org/",
+    "aiConservation": "TRAFFIC and WWF use natural-language processing (NLP) AI to scan e-commerce platforms, social media and dark-web marketplaces in multiple languages, detecting illegal pangolin product listings and generating intelligence for enforcement agencies. Computer-vision classifiers identify scale products in seized images, accelerating customs intercepts."
+  },
+  {
+    "id": "animal-asia-005",
+    "name": "Philippine Eagle",
+    "scientificName": "Pithecophaga jefferyi",
+    "coordinates": [125.5, 7.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The national bird of the Philippines — one of the largest and most powerful eagles in the world.",
+    "fullDesc": "The Philippine eagle, also known as the monkey-eating eagle, is endemic to four major islands of the Philippines: Leyte, Samar, Mindanao and Luzon. With a wingspan of up to 2.2 m and a body length of up to 1 m, it is one of the largest living eagles. It preys on flying lemurs, monkeys, large bats and reptiles from the top of the forest canopy. Fewer than 800 individuals are estimated to survive in the wild. Deforestation for logging and agriculture has destroyed over 90% of the original Philippine lowland rainforest.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Philippine_Eagle_1.jpg/800px-Philippine_Eagle_1.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Philippine Eagle Center captive-breeding programme and reintroduction.",
+      "Philippine Eagle Act (1995): killing an eagle punishable by up to 12 years in prison.",
+      "Community ranger programmes and rainforest reforestation in Mindanao."
+    ],
+    "localOrganizationUrl": "https://www.philippineeaglefoundation.org/",
+    "aiConservation": "GPS-tracker movement data combined with ML habitat-suitability models identify priority forest patches for urgent protection. Computer vision applied to drone footage monitors nest sites and chick development without disturbing nesting pairs. Acoustic AI detects eagle vocalisations in dense forest to locate otherwise-invisible individuals."
+  },
+  {
+    "id": "animal-asia-006",
+    "name": "Irrawaddy Dolphin",
+    "scientificName": "Orcaella brevirostris",
+    "coordinates": [105.0, 12.0],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "A blunt-snouted freshwater dolphin of Southeast Asian rivers and estuaries, critically scarce in the Mekong.",
+    "fullDesc": "Irrawaddy dolphins inhabit coastal and freshwater habitats from the Bay of Bengal to the Philippines. Three critically small subpopulations exist in the Mekong River (fewer than 92 individuals), the Mahakam River in Borneo (fewer than 80) and the Ayeyarwady River in Myanmar. They are famous for a cooperative fishing tradition with local fishers — when a dolphin slaps the water with its tail, fishers cast nets on the other side. Deaths in gill nets set for fish remain the leading cause of mortality in all three river subpopulations.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Irrawaddy_dolphin_Jan_2007.jpg/800px-Irrawaddy_dolphin_Jan_2007.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Establishment of dolphin conservation zones with gill-net bans in the Cambodian Mekong.",
+      "Community ecotourism programmes making dolphins more valuable alive than dead.",
+      "WWF / Mekong River Commission coordinated monitoring and bycatch-reduction projects."
+    ],
+    "localOrganizationUrl": "https://www.wwf.org/",
+    "aiConservation": "Hydrophone arrays in the Mekong use ML acoustic classifiers trained on Irrawaddy dolphin click and whistle signatures to track individuals and estimate subpopulation sizes in turbid water where visual surveys are impossible. AI population models incorporating river flow and gill-net density data project extinction timelines under different management scenarios."
+  },
+  {
+    "id": "animal-asia-007",
+    "name": "Sumatran Tiger",
+    "scientificName": "Panthera tigris sumatrae",
+    "coordinates": [102.0, -0.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The smallest surviving tiger subspecies, found only on the Indonesian island of Sumatra.",
+    "fullDesc": "Sumatran tigers are the last of three Indonesian tiger subspecies — the Bali and Javan tigers are already extinct. Only around 400–600 individuals survive, scattered across protected areas and forest remnants in an island whose lowland forests have been largely converted to oil palm and paper-pulp plantations. Their stripes are more closely spaced than those of mainland subspecies, providing better camouflage in dense forest. Illegal poaching for traditional medicine and the pet trade remains a major threat alongside habitat loss.",
+    "images": ["https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "SMART (Spatial Monitoring and Reporting Tool) patrolling in Sumatra's key tiger landscapes.",
+      "Tiger Protection and Conservation Units (TPCUs) with forensic investigation capacity.",
+      "Zero-deforestation commitments from major paper and palm oil companies."
+    ],
+    "localOrganizationUrl": "https://www.wwf.or.id/en/",
+    "aiConservation": "RFCx acoustic sensors detect chainsaws and vehicles in Sumatran tiger habitat with ML audio classifiers, alerting rangers within minutes. Camera-trap images are processed by AI to identify individual tigers and estimate population density across Kerinci Seblat National Park. Predictive ML models on deforestation satellite data identify forest patches most at risk within the tiger's range."
+  },
+  {
+    "id": "animal-asia-008",
+    "name": "Bornean Pygmy Elephant",
+    "scientificName": "Elephas maximus borneensis",
+    "coordinates": [117.5, 5.0],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "The smallest elephant subspecies, gentle and docile, found only in northeastern Borneo.",
+    "fullDesc": "Bornean pygmy elephants are genetically distinct from other Asian elephants and are thought to have been isolated on Borneo for thousands of years, developing their notably smaller size (up to 2.5 m at the shoulder), rounder face, and unusually docile temperament. Around 1,500 remain, mostly in the Kinabatangan River floodplain in Sabah, Malaysia. Rapid conversion of lowland forest to oil palm plantations has fragmented their habitat, forcing dangerous encounters with palm oil workers and confining herds to increasingly isolated forest patches.",
+    "images": ["https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Kinabatangan Wildlife Sanctuary and corridor restoration along the river floodplain.",
+      "GPS satellite collars on key individuals to monitor movement and reduce conflict.",
+      "Sabah Wildlife Department's Human-Elephant Conflict Mitigation Programme."
+    ],
+    "localOrganizationUrl": "https://www.wwf.org.my/",
+    "aiConservation": "GPS collar data is fed into ML movement models to predict when and where elephant herds will enter plantation areas, enabling companies to deploy non-lethal deterrents (floodlights, firecrackers) pre-emptively. Drone imagery analyzed by computer vision counts individual elephants in dense riparian vegetation where ground surveys fail."
+  },
+  {
+    "id": "animal-af-001",
+    "name": "Mountain Gorilla",
+    "scientificName": "Gorilla beringei beringei",
+    "coordinates": [29.5, -1.4],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "One of our closest relatives, living in the mist-covered volcanoes of central Africa — and slowly recovering.",
+    "fullDesc": "Mountain gorillas inhabit the Virunga Massif volcanoes shared by Rwanda, Uganda and the Democratic Republic of Congo, and Uganda's Bwindi Impenetrable National Park. They live in stable family groups of 5–30 individuals led by a dominant silverback. Intensive conservation since the 1980s has increased the wild population from around 620 to over 1,000 — making them the only great ape whose numbers are increasing. They remain Endangered due to disease (respiratory viruses transmitted by humans), political instability and agricultural encroachment.",
+    "images": ["https://images.unsplash.com/photo-1594938298603-c8148bcb8d3b?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "International Gorilla Conservation Programme (IGCP) coordinating management across three countries.",
+      "Revenue sharing from high-end gorilla trekking permits funding ranger salaries and community development.",
+      "Veterinary intervention teams treating injured and sick gorillas in the wild."
+    ],
+    "localOrganizationUrl": "https://www.mountaingorilla.org/",
+    "aiConservation": "Wildlife Insights (a Google-backed platform) uses deep-learning models to auto-classify species in over 80 million camera-trap images from the Virunga landscape, accelerating population monitoring. Acoustic AI (Rainforest Connection) detects chainsaw and gunshot sounds in the forests in real time, alerting park rangers within minutes of a poaching incident."
+  },
+  {
+    "id": "animal-af-002",
+    "name": "Black Rhinoceros",
+    "scientificName": "Diceros bicornis",
+    "coordinates": [36.5, -2.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "A hook-lipped browser that once roamed across sub-Saharan Africa; hunted to the brink of extinction for its horn.",
+    "fullDesc": "Black rhinos once numbered over 65,000 but by 1995 intensive poaching for horn (valued in traditional Asian medicine and as status symbols in Yemen) had reduced the population to just 2,410 — a 96% decline. Intensive protection has since allowed a partial recovery to around 6,000. They are solitary browsers inhabiting savanna, woodland and bushveld. Three of the four subspecies survive; the western black rhino was declared extinct in 2011. Horn poaching surged again after 2008, driven by East Asian demand.",
+    "images": ["https://images.unsplash.com/photo-1544985361-b420d7a77043?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Strategic dehorning of rhinos in high-risk areas to reduce poaching incentives.",
+      "Intensive protection zones (IPZs) with armed ranger teams and helicopter patrols.",
+      "DNA forensics (RhODIS database) matching seized horn to poaching crime scenes."
+    ],
+    "localOrganizationUrl": "https://www.savetherhino.org/",
+    "aiConservation": "EarthRanger, an AI situational-awareness platform, fuses ranger GPS positions, satellite imagery, rhino collar data and historical poaching incidents using ML to generate real-time threat maps. Acoustic sensors powered by AI detect helicopter engine signatures and vehicle movement in protected areas at night. DNA forensics AI matches horn samples to specific individuals and geographic origins to dismantle trafficking networks."
+  },
+  {
+    "id": "animal-af-003",
+    "name": "African Wild Dog",
+    "scientificName": "Lycaon pictus",
+    "coordinates": [31.5, -20.0],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "Africa's most successful predator by kill rate, living in highly cooperative packs — now vanishingly rare.",
+    "fullDesc": "African wild dogs, also called painted wolves, live in cohesive packs of up to 27 adults. Their cooperative hunting, with individuals taking rotating roles in chasing, flanking and killing prey, achieves success rates of around 80% — far higher than lions (25%) or leopards (38%). From an original population of 500,000 they have declined to fewer than 6,600 adults, fragmented across 39 subpopulations in eastern and southern Africa. Key threats are human-wildlife conflict, disease (rabies, canine distemper) transmitted from domestic dogs, and habitat fragmentation.",
+    "images": ["https://images.unsplash.com/photo-1588781292989-eb4abe4c90a7?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Vaccination of domestic dogs in buffer zones to prevent disease transmission.",
+      "GPS-collar monitoring and corridor maintenance across transfrontier conservation areas.",
+      "Livestock compensation schemes and predator-proof bomas to reduce retaliatory killings."
+    ],
+    "localOrganizationUrl": "https://www.africanwilddogconservancy.org/",
+    "aiConservation": "ML models trained on GPS-collar movement data predict when packs approach park boundaries and livestock areas, triggering automated SMS alerts to farmers so they can bring livestock in before conflict occurs. Acoustic classifiers recognise wild dog vocalisations to locate packs in dense bush; AI photo-ID systems identify individuals from their unique mottled coat patterns."
+  },
+  {
+    "id": "animal-af-004",
+    "name": "Cheetah",
+    "scientificName": "Acinonyx jubatus",
+    "coordinates": [37.5, -3.5],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "The fastest land animal on Earth, yet losing ground in 91% of its historic range.",
+    "fullDesc": "Cheetahs have been reduced to around 7,100 individuals in fragmented populations across 33 African countries, plus a tiny group of fewer than 50 Asiatic cheetahs (Acinonyx jubatus venaticus) in Iran. They are built for speed — reaching 100 km/h in three seconds — but are not built for competition: they lose up to 50% of their kills to larger predators and require vast territories of open savanna. Unlike other big cats, cheetahs cannot roar; they communicate with high-pitched chirps and purring. Habitat loss, human-wildlife conflict and the illegal cub trade (thousands taken from the wild as exotic pets) are major threats.",
+    "images": ["https://images.unsplash.com/photo-1551085254-e96b210db58a?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Cheetah Conservation Fund's livestock guarding dog programme (Anatolian shepherds) reducing predation of herds.",
+      "CCF's Bushblok programme converting encroaching thornbush into fuel logs, restoring cheetah habitat.",
+      "Legal crackdown on the live-cub trade in the Horn of Africa."
+    ],
+    "localOrganizationUrl": "https://cheetah.org/",
+    "aiConservation": "CCF's camera-trap network uses AI spot-pattern recognition to identify individual cheetahs across Namibia, maintaining a database of all known individuals without invasive handling. ML conflict-prediction models trained on livestock-attack records and land-cover data identify high-risk ranches for targeted livestock-guarding dog deployment."
+  },
+  {
+    "id": "animal-af-005",
+    "name": "Okapi",
+    "scientificName": "Okapia johnstoni",
+    "coordinates": [28.5, 1.5],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "A forest-dwelling relative of the giraffe, striped like a zebra — endemic to the DRC's Ituri Forest.",
+    "fullDesc": "The okapi is the only living relative of the giraffe, sharing its long tongue, ossicones (bony horn-like protuberances) and similar digestive system. It inhabits the dense tropical rainforest of the northeastern Democratic Republic of Congo — the only country where it is found in the wild. Its distinctive striped hindquarters may help calves follow their mothers in dense forest. Estimated at fewer than 10,000 individuals, it is threatened by forest clearance for charcoal and agriculture, poaching for bushmeat and skin, and decades of armed conflict that have prevented effective protection.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Okapi2.jpg/800px-Okapi2.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Okapi Wildlife Reserve (UNESCO World Heritage Site, 13,726 km²) managed by the Okapi Conservation Project.",
+      "Community ranger training and economic alternatives to poaching in Ituri.",
+      "Anti-poaching patrols in collaboration with the DRC Institut Congolais pour la Conservation de la Nature."
+    ],
+    "localOrganizationUrl": "https://okapiconservation.org/",
+    "aiConservation": "Rainforest Connection acoustic AI monitors the Ituri Forest for logging and snare-setting activity, providing near-real-time alerts. Camera-trap AI classifies okapi, bushmeat hunters and armed militia to produce threat maps across the 13,726 km² reserve. ML models quantify forest loss from satellite imagery to track encroachment at the reserve boundary."
+  },
+  {
+    "id": "animal-af-006",
+    "name": "Ethiopian Wolf",
+    "scientificName": "Canis simensis",
+    "coordinates": [39.8, 10.2],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "Africa's most endangered carnivore, restricted to the Afroalpine highlands of Ethiopia.",
+    "fullDesc": "Ethiopian wolves are the rarest canid in the world: only around 500 survive, all in seven isolated mountain ranges of the Ethiopian highlands above 3,000 m. They live in small, territorial packs but hunt rodents alone, specialising in giant mole rats and grass rats. Disease — primarily rabies and canine distemper transmitted from the huge population of domestic dogs at lower altitudes — is the greatest threat; outbreaks can kill 75% of a local pack within months. Habitat loss to agriculture encroaching upslope as the human population grows is the second major driver of decline.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Canis_simensis.jpg/800px-Canis_simensis.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Ethiopian Wolf Conservation Programme (EWCP) oral rabies vaccination of wild wolves during outbreaks.",
+      "Vaccination of domestic dogs in surrounding villages to create a buffer against disease.",
+      "Community conservation wardens and patrol networks in Bale Mountains National Park."
+    ],
+    "localOrganizationUrl": "https://www.ethiopianwolf.org/",
+    "aiConservation": "GPS-collar data from monitored packs is fed into ML epidemiological models that predict the likely spread of rabies outbreaks, allowing vaccination teams to be pre-positioned before an epidemic peaks. Acoustic classifiers trained on wolf howls enable remote pack detection. Population viability models incorporating climate projections for Afroalpine habitat are guiding urgent expansion of protected areas."
+  },
+  {
+    "id": "animal-af-007",
+    "name": "African Penguin",
+    "scientificName": "Spheniscus demersus",
+    "coordinates": [18.4, -33.9],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "South Africa's beloved 'jackass penguin', declining rapidly as its fish prey disappear.",
+    "fullDesc": "African penguins breed on the southern and southwestern coasts of South Africa and Namibia. The total population was over a million in 1900; today fewer than 50,000 remain. Historically they were decimated by egg collection and guano harvesting; today the main driver of decline is competition with commercial purse-seine fishing vessels that remove anchovies and sardines — the penguins' principal prey — from their near-colony foraging areas. Climate-driven shifts in fish distribution have compounded the problem, with fish moving east while colonies remain west.",
+    "images": ["https://images.unsplash.com/photo-1551946580-7e1032e80c93?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "SANCCOB (Southern African Foundation for the Conservation of Coastal Birds) oiled-bird rehabilitation.",
+      "Fishing exclusion zones around major colonies trialled by WWF South Africa.",
+      "Plastic-free nest shelter installation to replace bare-ground sites at de-guanoed colonies."
+    ],
+    "localOrganizationUrl": "https://sanccob.co.za/",
+    "aiConservation": "AI-powered underwater acoustic monitoring tracks fish-school movements and depth, helping predict where anchovies and sardines will concentrate near penguin colonies — informing both conservation and fisheries management. Computer vision models count penguins in annual aerial survey photographs, replacing labour-intensive manual counting and improving precision."
+  },
+  {
+    "id": "animal-af-008",
+    "name": "Grevy's Zebra",
+    "scientificName": "Equus grevyi",
+    "coordinates": [37.5, 2.0],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "The world's largest wild equid, with unique narrow stripes — only around 3,000 remain in northern Kenya and Ethiopia.",
+    "fullDesc": "Grevy's zebras differ from plains zebras in their narrow, closely spaced stripes, rounded ears, white belly and more mule-like build. They are a semi-arid species of northern Kenya and Ethiopia. Each individual has a unique stripe pattern, like a fingerprint. Historically ranging into Somalia, Eritrea and Djibouti, the species has suffered a 54% decline since the 1980s due to competition with livestock for water and grass, hunting for skin and meat, and drought. A population census in 2020 estimated around 3,000 individuals.",
+    "images": ["https://images.unsplash.com/photo-1551085254-e96b210db58a?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Grevy's Zebra Trust community conservation scouts and breeding-season monitoring.",
+      "Community-developed water management plans to reduce livestock-wildlife conflict at water points.",
+      "Annual Great Grevy's Rally citizen-science photographic census."
+    ],
+    "localOrganizationUrl": "https://www.grevyszebratrust.org/",
+    "aiConservation": "The Great Grevy's Rally generates thousands of citizen-science photos which are processed by AI stripe-pattern recognition (developed in collaboration with Wild Me, creators of Wildbook) to identify and count individual zebras — enabling a national census to be completed in just two days. ML models integrating satellite vegetation and rainfall data predict drought-stress zones for early intervention."
+  },
+  {
+    "id": "animal-am-001",
+    "name": "Jaguar",
+    "scientificName": "Panthera onca",
+    "coordinates": [-60.0, -12.0],
+    "starRating": 4,
+    "status": "Near Threatened",
+    "shortDesc": "The Americas' largest cat, a keystone apex predator of the Amazon and tropical forests.",
+    "fullDesc": "Jaguars are the third-largest felid in the world and the largest in the Americas. They once ranged from the southwestern United States to Patagonia; today they have been eliminated from more than 40% of this range. Around 64,000–173,000 remain, most in the Amazon Basin. Unlike other big cats, jaguars are strong swimmers and often hunt capybara, caiman and giant river otters in flooded forest. Their distinctive rosette coat pattern, powerful build and bone-crushing bite (they kill by piercing the skull) distinguish them from leopards. Deforestation, cattle ranching and retaliatory killing by ranchers whose livestock they prey on are the primary threats.",
+    "images": ["https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Panthera's Jaguar Corridor Initiative maintaining connectivity across 18 countries.",
+      "Livestock insurance and coexistence programmes in the Pantanal and Cerrado.",
+      "Brazil's Amazon deforestation monitoring and enforcement under the Forest Code."
+    ],
+    "localOrganizationUrl": "https://www.panthera.org/cat/jaguar",
+    "aiConservation": "Panthera's camera-trap network uses ML to auto-identify individual jaguars by rosette pattern, tracking movements across the corridor. GPS collar data analyzed by ML models predicts jaguar crossings of major roads and deforestation frontiers, informing wildlife bridge placement. Rainforest Connection acoustic AI detects chainsaw activity inside jaguar core areas in near real time."
+  },
+  {
+    "id": "animal-am-002",
+    "name": "Amazon River Dolphin",
+    "scientificName": "Inia geoffrensis",
+    "coordinates": [-60.0, -3.5],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "The largest river dolphin in the world, and the only pink one — now Endangered in the Amazon.",
+    "fullDesc": "Amazon river dolphins (boto) are famous for their pink colouration, which intensifies with age and excitement. They have flexible necks allowing them to turn their heads 90°, enabling them to manoeuvre through flooded forest understory. Uniquely among cetaceans, males become more strongly coloured — possibly a sexual selection trait. The species was reclassified from Data Deficient to Endangered in 2018, reflecting rapid population declines from bycatch in fishing nets, deliberate killing for use as bait in catfish fisheries, and mercury poisoning from illegal gold mining across the Amazon.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Boto_river_dolphin_%28Inia_geoffrensis%29.jpg/800px-Boto_river_dolphin_%28Inia_geoffrensis%29.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Brazil: legal prohibition on killing and using botos as bait since 2004, with enforcement patrols.",
+      "WWF and IUCN working to establish protected areas in key Amazon river systems.",
+      "Mercury contamination reduction campaigns targeting illegal gold mining operations."
+    ],
+    "localOrganizationUrl": "https://www.wwf.org.br/",
+    "aiConservation": "Passive acoustic monitoring buoys equipped with ML classifiers track boto click vocalisations along the Amazon and its tributaries, providing continuous population-density estimates without boat surveys. ML analysis of satellite imagery identifying deforestation and mining sites helps prioritise areas for fisheries enforcement and bycatch inspections."
+  },
+  {
+    "id": "animal-am-003",
+    "name": "California Condor",
+    "scientificName": "Gymnogyps californianus",
+    "coordinates": [-116.5, 36.0],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "North America's largest flying bird — rescued from extinction and slowly rebuilding from just 27 individuals.",
+    "fullDesc": "The California condor is a New World vulture with a 3 m wingspan, making it the largest flying land bird in North America. By 1987 only 27 survived and the entire wild population was captured for captive breeding. Reintroductions began in 1992 and the wild population has since grown to over 340, from California to Baja California, Utah and Arizona. Lead poisoning from bullet fragments in hunter-killed carcasses — condors' primary food source — remains the number one mortality cause. A single spent bullet can contain enough lead to kill a condor.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/California_condor_flying_over_Baja_California.jpg/800px-California_condor_flying_over_Baja_California.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Mandatory non-lead ammunition regulations in California and Arizona range areas.",
+      "Ongoing captive breeding at San Diego Wild Animal Park, Los Angeles Zoo and others.",
+      "Wing-tag identification and radio tracking of all wild individuals."
+    ],
+    "localOrganizationUrl": "https://www.peregrinefund.org/condor",
+    "aiConservation": "AI computer-vision analysis of photographs taken by citizen scientists and camera traps identifies individual condors from wing-tag numbers and plumage patterns, tracking movements without observer interference. ML lead-exposure risk models trained on hunting-season dates, carcass removal records and condor GPS locations predict high-risk areas for targeted carcass-lead testing and ranger intervention."
+  },
+  {
+    "id": "animal-am-004",
+    "name": "Monarch Butterfly",
+    "scientificName": "Danaus plexippus",
+    "coordinates": [-100.0, 19.5],
+    "starRating": 3,
+    "status": "Endangered",
+    "shortDesc": "Iconic migratory butterfly that travels up to 4,500 km each year to overwinter in Mexican forests.",
+    "fullDesc": "Monarch butterflies undertake one of the longest insect migrations on Earth, travelling from Canada and the United States to overwintering sites in the oyamel fir forests of Michoacán and Estado de México, Mexico. They navigate using a time-compensated sun compass and an innate magnetic sense. IUCN listed the migratory population as Endangered in 2022: overwintering colonies have declined by more than 80% since the 1990s due to milkweed loss from herbicide use on US croplands, illegal logging at overwintering sites and climate disruption of migration timing.",
+    "images": ["https://images.unsplash.com/photo-1576031450181-9fcab802bb5a?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Milkweed habitat restoration along migration corridors in the US and Canada.",
+      "Mexican federal protection and enforcement against illegal logging in Monarch Butterfly Biosphere Reserve.",
+      "Citizen-science monitoring (Journey North, Monarch Watch) tracking migration in real time."
+    ],
+    "localOrganizationUrl": "https://monarchwatch.org/",
+    "aiConservation": "ML models trained on decades of citizen-science sighting records and climate data predict shifts in migration timing and route, identifying milkweed-planting priority zones. AI computer-vision tools allow smartphones to auto-count monarchs in citizen-science photographs, dramatically improving overwintering population estimates. Satellite thermal imagery and AI detect illegal logging at overwintering sites within days."
+  },
+  {
+    "id": "animal-am-005",
+    "name": "Florida Panther",
+    "scientificName": "Puma concolor coryi",
+    "coordinates": [-81.5, 26.0],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The only confirmed breeding puma population east of the Mississippi — fewer than 200 survive in Florida.",
+    "fullDesc": "Florida panthers are a subspecies of puma (cougar/mountain lion) confined to the subtropical forests, swamps and upland habitats of South Florida. By 1995 the population had been reduced to around 20 individuals, suffering severe inbreeding depression (twisted tails, atrial septal defects, low sperm count). Translocation of eight female Texas pumas in 1995 rescued the population through genetic restoration; numbers recovered to around 120–230 by 2020. Vehicle collisions (95+ deaths since 2000) and habitat loss to coastal development remain the key ongoing threats.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Florida_Panther_%28Puma_concolor_coryi%29.jpg/800px-Florida_Panther_%28Puma_concolor_coryi%29.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Florida Wildlife Corridor Act protecting and connecting habitats across the peninsula.",
+      "Wildlife crossing underpasses on Interstate 75 (Alligator Alley) reducing vehicle mortality.",
+      "Radio-collar and GPS monitoring of virtually all known adults by USFWS and FWC."
+    ],
+    "localOrganizationUrl": "https://floridapanthernet.org/",
+    "aiConservation": "ML models trained on GPS-collar data and road-traffic counts predict panther road-crossing hotspots by time of day and season, informing dynamic variable-speed limit signs and patrols. Computer vision analyzes camera-trap images along corridor areas to monitor panther use of wildlife underpasses. Genetic diversity AI models guide future management breeding decisions."
+  },
+  {
+    "id": "animal-am-006",
+    "name": "Giant Anteater",
+    "scientificName": "Myrmecophaga tridactyla",
+    "coordinates": [-56.0, -15.0],
+    "starRating": 3,
+    "status": "Vulnerable",
+    "shortDesc": "A remarkable insectivore with a 60 cm tongue, losing ground to fire, roads and habitat loss across South America.",
+    "fullDesc": "Giant anteaters are among South America's most distinctive mammals, recognized by their elongated snout, bushy tail and powerful fore-claws. They consume up to 35,000 ants and termites daily with their 60 cm sticky tongue, inserted into mounds up to 150 times per minute. Once widespread from Honduras to northern Argentina, they have been eliminated from much of their original range. Wildfires set to clear land for agriculture are the leading cause of mortality in the Brazilian Cerrado; vehicle collisions are the second. Their low reproductive rate (one pup every two years) makes population recovery extremely slow.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Giant_anteater_Braz%C3%ADlia.jpg/800px-Giant_anteater_Braz%C3%ADlia.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Giant Anteater Conservation Programme in the Brazilian Pantanal and Cerrado.",
+      "Firebreak creation and controlled-burn programmes protecting Cerrado anteater populations.",
+      "Wildlife crossing fences and underpasses on major roads in Mato Grosso do Sul."
+    ],
+    "localOrganizationUrl": "https://www.ipenantater.org.br/",
+    "aiConservation": "Satellite fire-detection AI (FIRMS, NASA) integrated with GPS collar data alerts rangers when wildfires approach known anteater locations, enabling targeted animal rescue missions. ML road-mortality models trained on accident reports and road-use data identify the highest-risk road sections for wildlife fencing and crossing installation."
+  },
+  {
+    "id": "animal-am-007",
+    "name": "Harpy Eagle",
+    "scientificName": "Harpia harpyja",
+    "coordinates": [-60.5, 5.5],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "The Americas' most powerful raptor — a forest giant that snatches monkeys from the canopy.",
+    "fullDesc": "The harpy eagle is the largest and most powerful bird of prey in the Americas, with talons as large as a grizzly bear's claws and the ability to carry prey heavier than itself. It inhabits lowland tropical rainforest from southern Mexico through Central and South America. It hunts sloths, monkeys, iguanas and large birds, swooping through the dense forest canopy at high speed. Each nesting pair requires up to 100 km² of intact forest, making them highly sensitive to deforestation. Logging and agricultural expansion have eliminated them from much of Central America and the Atlantic Forest of Brazil.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Harpia_harpyja_-_2010_Guyana_expedition_-_cropped.jpg/800px-Harpia_harpyja_-_2010_Guyana_expedition_-_cropped.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Peregrine Fund and Panama Audubon Society nest monitoring and community nest-guardian programmes.",
+      "Reforestation corridors in the Darién and Chocó biodiversity hotspot.",
+      "Education programmes targeting indigenous and rural communities near nesting sites."
+    ],
+    "localOrganizationUrl": "https://www.peregrinefund.org/harpy-eagle",
+    "aiConservation": "AI acoustic classifiers trained on harpy eagle calls detect individuals within vast forest areas via automated recorder networks, locating nesting territories without helicopter surveys. Computer vision analyzes drone footage to assess nest health and monitor chick development. Deforestation satellite monitoring with ML quantifies annual loss of harpy eagle habitat across the Amazon and Chocó."
+  },
+  {
+    "id": "animal-am-008",
+    "name": "Spix's Macaw",
+    "scientificName": "Cyanopsitta spixii",
+    "coordinates": [-41.5, -10.5],
+    "starRating": 5,
+    "status": "Extinct in the Wild",
+    "shortDesc": "The inspiration for the film 'Rio' — declared extinct in the wild, but captive birds are being reintroduced to Brazil.",
+    "fullDesc": "Spix's macaws are a stunning cobalt-blue parrot endemic to a tiny area of caatinga (dry thorny scrubland) in Bahia, Brazil, entirely dependent on the Caraibeira tree (Tabebuia aurea) for nesting and food. The last known wild individual disappeared in 2000, driven to extinction by trapping for the caged-bird trade and habitat destruction. However, over 100 captive birds exist in conservation programmes worldwide. In 2019 the Brazilian government began reintroduction of captive-bred birds at the restored Caatinga Conservation Institute site near Curaçá, Bahia. The species is listed as Extinct in the Wild pending successful re-establishment.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cyanopsitta_spixii_%28captive%29.jpg/800px-Cyanopsitta_spixii_%28captive%29.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "ACTP (Association for the Conservation of Threatened Parrots) captive-breeding programme in Germany.",
+      "Caatinga habitat restoration at Curaçá, Bahia, including replanting of native Caraibeira trees.",
+      "Reintroduction releases beginning 2022; ongoing monitoring and nest-box installation."
+    ],
+    "localOrganizationUrl": "https://www.actp-parrots.org/",
+    "aiConservation": "Automated acoustic recorder arrays in the reintroduction site use ML parrot-call classifiers to track which released birds survive and establish territories, without the disturbing presence of human observers. AI genetic management tools optimise captive breeding pairings to maximise diversity. Satellite deforestation alerts trigger rapid response to protect the small area of remaining Caraibeira habitat."
+  },
+  {
+    "id": "animal-am-009",
+    "name": "Leatherback Sea Turtle",
+    "scientificName": "Dermochelys coriacea",
+    "coordinates": [-61.0, 10.5],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "Earth's largest turtle — a living dinosaur that dives deeper than 1,000 metres to feed on jellyfish.",
+    "fullDesc": "Leatherback sea turtles are the largest reptiles alive today, reaching up to 2 m in length and 900 kg. Unlike other sea turtles, they lack a hard shell — instead their back is covered by a mosaic of small bones beneath leathery skin. They maintain body temperatures up to 18°C above the surrounding seawater through metabolic heat and a unique counter-current heat exchange system. They migrate up to 16,000 km between nesting beaches in the tropics and jellyfish-rich feeding grounds near the poles. Although globally Vulnerable, some Pacific subpopulations are Critically Endangered, having declined by over 90% in 30 years due to bycatch, plastic ingestion and egg poaching.",
+    "images": ["https://images.unsplash.com/photo-1468126137339-8aba6a7a71af?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Nest protection and nest relocation on critical beaches in Trinidad, Costa Rica and Malaysia.",
+      "Circle-hook and bycatch-reduction device requirements for longline fisheries.",
+      "Satellite-tag monitoring to identify and protect key migration corridors."
+    ],
+    "localOrganizationUrl": "https://www.leatherback.org/",
+    "aiConservation": "Machine learning models trained on multi-year satellite-track datasets predict leatherback migration routes and feeding-area locations for each season, enabling fisheries regulators to issue dynamic, spatially targeted bycatch warnings. Computer vision analysis of beach-camera footage automatically detects and counts nesting females and emerging hatchlings at monitored beaches."
+  },
+  {
+    "id": "animal-am-010",
+    "name": "Giant Otter",
+    "scientificName": "Pteronura brasiliensis",
+    "coordinates": [-63.0, -4.0],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "The world's longest otter — a boisterous social hunter of Amazonian rivers, nearly extinct by the 1970s.",
+    "fullDesc": "Giant otters can reach 1.8 m in length and live in extended family groups of 3–10 individuals. They are highly vocal — families communicate with a repertoire of at least nine distinct sounds. Classified as Endangered by IUCN, with around 5,000 remaining mainly in the Amazon, Pantanal and Orinoco Basin. Each individual has a unique throat patch pattern. The species was hunted nearly to extinction for its velvety pelt by the 1970s; after trade protection numbers have partially recovered, but illegal fishing, mercury pollution from gold mining and habitat degradation continue to threaten them.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Giant_Otter_Manu.jpg/800px-Giant_Otter_Manu.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "IUCN Otter Specialist Group conservation assessments and monitoring coordination.",
+      "Ecotourism programmes in the Pantanal and Peruvian Amazon providing revenue for communities protecting otter habitats.",
+      "Mercury monitoring and advocacy targeting illegal gold mining in otter river systems."
+    ],
+    "localOrganizationUrl": "https://www.otterspecialistgroup.org/",
+    "aiConservation": "AI-powered acoustic recording units in the Amazon identify giant otter family groups from their distinctive multi-note calls, enabling population surveys across thousands of kilometres of remote river systems. Satellite-based water-quality ML models track mercury and sediment loads — key proxies for gold-mining impacts on otter habitats."
+  },
+  {
+    "id": "animal-eu-001",
+    "name": "European Bison",
+    "scientificName": "Bison bonasus",
+    "coordinates": [23.0, 52.5],
+    "starRating": 4,
+    "status": "Near Threatened",
+    "shortDesc": "Europe's heaviest land animal — hunted to extinction in the wild in 1927, now making a remarkable comeback.",
+    "fullDesc": "The European bison (wisent) is the continent's largest land mammal, with bulls reaching 900 kg. The species was driven extinct in the wild by World War I, habitat destruction and hunting; the last wild individual was killed in Poland's Białowieża Forest in 1921. Captive breeding from just 12 surviving animals in zoos began in the 1920s. Reintroductions from 1952 onward have established over 7,000 wild and semi-wild animals across 30+ countries, with the main Białowieża population now the largest. They remain Near Threatened due to limited genetic diversity, hunting pressure in some range states and disease transmission from cattle.",
+    "images": ["https://images.unsplash.com/photo-1623316995555-a3f6f3a62c66?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "European Bison Conservation Centre (Białowieża) coordinating global studbook and breeding.",
+      "Rewilding Europe supporting free-roaming herds across the Carpathians and Danube Delta.",
+      "Genetic management programmes to address founder bottleneck from 12 ancestors."
+    ],
+    "localOrganizationUrl": "https://www.rewildingeurope.com/",
+    "aiConservation": "GPS satellite collars on key individuals are combined with ML habitat models to predict herd movements and optimise corridor management across transboundary landscapes in Belarus and Poland. AI analysis of camera-trap and drone images provides automated population counts and body-condition assessments, flagging animals in poor health for veterinary inspection."
+  },
+  {
+    "id": "animal-eu-002",
+    "name": "Iberian Lynx",
+    "scientificName": "Lynx pardinus",
+    "coordinates": [-6.0, 37.5],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "The world's most endangered felid — brought back from fewer than 100 individuals by a dramatic recovery programme.",
+    "fullDesc": "The Iberian lynx is endemic to the Iberian Peninsula and once ranged across Spain and Portugal. By 2002 only 94 individuals remained in two isolated populations in Andalusia — making it the most critically threatened cat species in the world. The primary driver of decline was the collapse of the wild European rabbit population (its almost-exclusive prey) from myxomatosis and viral haemorrhagic disease. Reintroduction and rabbit-habitat restoration programmes have been spectacularly successful: the total population exceeded 2,000 in 2024 and the species was downlisted from Critically Endangered to Endangered by IUCN.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Lynx_pardinus-edit1.jpg/800px-Lynx_pardinus-edit1.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "LIFE Iberlince programme: captive breeding and reintroduction to 9 new areas in Spain and Portugal.",
+      "Wild rabbit habitat restoration and warren creation across release sites.",
+      "Wildlife crossing infrastructure on major roads in lynx territories."
+    ],
+    "localOrganizationUrl": "https://iberlince.eu/",
+    "aiConservation": "Iberian lynx are individually identified from camera-trap facial images and spot patterns using deep-learning models, maintaining a near-complete registry of all known wild individuals. ML models trained on GPS tracking and road-casualty records identify high-risk road segments for priority wildlife crossing construction. AI rabbit-population models guide habitat management to sustain adequate prey density for reintroduced lynx."
+  },
+  {
+    "id": "animal-eu-003",
+    "name": "Mediterranean Monk Seal",
+    "scientificName": "Monachus monachus",
+    "coordinates": [24.0, 37.5],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "One of the world's rarest marine mammals — fewer than 800 survive around Greek islands, Turkey and Mauritania.",
+    "fullDesc": "The Mediterranean monk seal was once widespread across the Mediterranean, Black Sea and Northwest African coast. By the mid-20th century it had been hunted and persecuted to near extinction. Today around 800 individuals survive, the largest population in Greek waters (especially the Northern Aegean and the national marine park around Alonnisos). Seals are killed in fishing nets and deliberately targeted by fishers who regard them as competition. Disturbance of pupping caves by tourists and boats causes abandonment of pups. Disease outbreaks are a severe threat: a morbillivirus killed around 200 animals in the Saharan coast in 1997.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mediterranean_monk_seal_%28Monachus_monachus%29.jpg/800px-Mediterranean_monk_seal_%28Monachus_monachus%29.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "MOm (Hellenic Society for the Study and Protection of the Monk Seal) beach-cave monitoring and pup rescue.",
+      "Alonnisos National Marine Park — first of Greece's marine protected areas — protecting key habitat.",
+      "Bycatch mitigation with gillnet escape hatches and seasonal fishing restrictions near pupping caves."
+    ],
+    "localOrganizationUrl": "https://www.mom.gr/en/",
+    "aiConservation": "Underwater acoustic recorders equipped with ML seal-call classifiers track monk seal movements around caves and fishing grounds without the presence of boats that would cause disturbance. AI analysis of aerial drone survey footage automates individual identification by coat pattern. Disease early-warning models monitor satellite sea-surface temperature anomalies (proxy for algal toxin blooms) that historically precede seal mortality events."
+  },
+  {
+    "id": "animal-eu-004",
+    "name": "Saiga Antelope",
+    "scientificName": "Saiga tatarica",
+    "coordinates": [60.0, 48.0],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "A prehistoric-looking steppe antelope with a proboscis nose, recovering from a catastrophic 2015 die-off.",
+    "fullDesc": "Saiga antelopes are recognised by their bulbous, flexible proboscis noses, which warm and filter cold, dusty steppe air. Once numbering millions across Eurasian steppe from the Caspian to Mongolia, the species was nearly wiped out after the Soviet Union's collapse when uncontrolled hunting for horn (used in traditional medicine) reduced populations from over a million to fewer than 50,000. In May 2015 a bacterial outbreak killed over 200,000 animals — over 60% of the global population — within three weeks. Since then numbers have partially recovered to around 1.3 million, but they remain Critically Endangered due to poaching and extreme climate vulnerability.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg/800px-Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Kazakhstan's Saiga Conservation Alliance anti-poaching patrols and horn-trade intelligence networks.",
+      "Russia and Kazakhstan transboundary cooperation on calving-ground protection.",
+      "CITES Appendix II listing restricting international horn trade."
+    ],
+    "localOrganizationUrl": "https://www.saiga-conservation.com/",
+    "aiConservation": "AI epidemiological models trained on historical die-off data, climate variables and satellite NDVI (vegetation productivity) data are used to predict when and where mass mortality events triggered by Pasteurella multocida bacteria may occur, potentially enabling pre-positioned veterinary response teams. ML satellite tracking of calving migration routes informs seasonal anti-poaching patrol deployment."
+  },
+  {
+    "id": "animal-oc-001",
+    "name": "Kakapo",
+    "scientificName": "Strigops habroptila",
+    "coordinates": [168.0, -46.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The world's heaviest parrot, flightless and nocturnal — every living individual is individually named.",
+    "fullDesc": "The kakapo is the world's only flightless parrot and the heaviest parrot (up to 4 kg). It is nocturnal, has a mossy green camouflage plumage and a distinctive musty-sweet odour. Males gather each summer at 'lek' sites on hilltops and boom and 'chime' for months to attract females. Following rat, stoat and cat predation, kakapos were reduced to just 51 individuals by 1995, all on two predator-free islands. The New Zealand Department of Conservation has managed every individual intensively since then. As of 2024 the total population exceeds 250 — every one named and known by character — making it arguably the most intensively managed wild bird species on Earth.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kakapo_arthur%27s_photo.jpg/800px-Kakapo_arthur%27s_photo.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "DOC New Zealand: five predator-free islands (Anchor, Codfish/Whenua Hou, Little Barrier, Chalky, Resolution) managed as kakapo sanctuaries.",
+      "Supplementary feeding with native foods during non-rimu-mast years to improve breeding condition.",
+      "Artificial incubation and hand-rearing of eggs and chicks when natural parenting fails."
+    ],
+    "localOrganizationUrl": "https://www.doc.govt.nz/kakapo-recovery",
+    "aiConservation": "The Kakapo Recovery Programme deploys a network of automated microphones across all sanctuary islands; ML audio classifiers identify individual birds by voiceprint, tracking their locations and health without disturbing them. Genetic diversity algorithms optimise breeding pair selection each season to maximise the effective population size from the founder bottleneck. AI egg-viability models predict hatchling success, prioritising incubator capacity."
+  },
+  {
+    "id": "animal-oc-002",
+    "name": "Tasmanian Devil",
+    "scientificName": "Sarcophilus harrisii",
+    "coordinates": [147.0, -42.0],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "The world's largest living marsupial carnivore, under siege from a unique, transmissible facial cancer.",
+    "fullDesc": "Tasmanian devils are stocky, black-furred marsupials with ferocious bites (the most powerful relative to body weight of any mammal). They are scavengers and predators, playing a key role in removing carcasses and controlling feral cat and invasive small-mammal populations. The wild population has fallen by more than 80% since the 1990s due to Devil Facial Tumour Disease (DFTD) — one of only three known naturally occurring transmissible cancers. DFTD is spread when devils bite each other during feeding and mating, destroying the face and jaw and causing death by starvation within months. Insurance populations on mainland Australia (where devils were absent for 3,000 years) and captive breeding offer a safety net.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sarcophilus_harrisii_taranna.jpg/800px-Sarcophilus_harrisii_taranna.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Save the Tasmanian Devil Programme (STDP): disease surveillance across Tasmania and insurance populations.",
+      "Reintroduction of 26 disease-free devils to Barrington Tops, NSW (Rewilding Australia, 2020).",
+      "DFTD vaccine trials; selective breeding for genetic resistance to the cancer."
+    ],
+    "localOrganizationUrl": "https://www.savethedevil.com.au/",
+    "aiConservation": "ML models trained on GPS movement data and camera-trap encounter rates predict the rate of DFTD spread across the landscape, guiding decisions on where to establish new insurance populations. Computer vision analyzes wildlife camera images to detect early facial tumour signs, enabling rapid isolation of infected individuals before they spread the disease to healthy animals."
+  },
+  {
+    "id": "animal-oc-003",
+    "name": "Numbat",
+    "scientificName": "Myrmecobius fasciatus",
+    "coordinates": [117.0, -31.0],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "Australia's only fully diurnal marsupial — a termite specialist restricted to tiny woodland pockets in Western Australia.",
+    "fullDesc": "The numbat is a small, strikingly striped marsupial that feeds exclusively on termites — consuming up to 20,000 per day with a long, sticky tongue. Once widespread across southern Australia, it now survives in only a handful of small, isolated woodland remnants in Western Australia and two reintroduced sites in South Australia and New South Wales. Unlike all other Australian marsupials, it is active entirely by day. European foxes and cats drove it to the brink after European settlement; without intensive predator control, numbat populations collapse within years. The total wild population is estimated at fewer than 1,500.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Numbat_at_Dryandra_woodland.jpg/800px-Numbat_at_Dryandra_woodland.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Project Numbat: fox and cat baiting programmes and community education.",
+      "Predator-proof fenced reserves (Perth Zoo, Australian Wildlife Conservancy).",
+      "Reintroduction to fenced sanctuaries in SA and NSW."
+    ],
+    "localOrganizationUrl": "https://www.numbat.org.au/",
+    "aiConservation": "AI analysis of camera-trap images automatically detects foxes and cats in numbat habitat, triggering targeted baiting while reducing non-target bait uptake by non-invasive native wildlife. ML models integrating satellite land-cover and road-density data predict optimal sites for future predator-proof sanctuary construction. Acoustic ML classifiers in woodpecker-drill studies characterise termite nest density to optimise numbat reintroduction site selection."
+  },
+  {
+    "id": "animal-oc-004",
+    "name": "Quokka",
+    "scientificName": "Setonix brachyurus",
+    "coordinates": [115.5, -32.0],
+    "starRating": 3,
+    "status": "Vulnerable",
+    "shortDesc": "World's happiest-looking marsupial — a small wallaby thriving on predator-free Rottnest Island.",
+    "fullDesc": "Quokkas are small wallabies famous for their forward-facing pouched mouth that gives them an endearing 'smiling' expression. The main population lives on Rottnest Island off Western Australia, where the absence of introduced predators has allowed them to remain numerous (approximately 10,000). A smaller, less-secure mainland population inhabits the forests of southwestern Western Australia. They are Vulnerable due to fox and cat predation on the mainland and the risk of disease or catastrophic event wiping out the island population. The 'quokka selfie' phenomenon has brought both fame and welfare concerns regarding tourist interaction.",
+    "images": ["https://images.unsplash.com/photo-1533422902779-babd49113645?w=500"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "DPaW (WA) predator control and habitat management on the Swan Coastal Plain.",
+      "Quokka monitoring programme on Rottnest Island tracking population trends.",
+      "Tourist education and strict fines for feeding or disturbing quokkas."
+    ],
+    "localOrganizationUrl": "https://www.rottnestisland.com/",
+    "aiConservation": "Smartphone quokka-selfie images submitted by tourists to a citizen-science platform are processed by ML animal detection models to map population distribution and activity across Rottnest Island in real time — turning millions of tourist photos into conservation data. AI thermal camera analysis detects fox incursion events at the mainland reserve perimeters at night."
+  },
+  {
+    "id": "animal-po-001",
+    "name": "Polar Bear",
+    "scientificName": "Ursus maritimus",
+    "coordinates": [-85.0, 73.0],
+    "starRating": 4,
+    "status": "Vulnerable",
+    "shortDesc": "The world's largest land predator, entirely dependent on Arctic sea ice — a living barometer of climate change.",
+    "fullDesc": "Polar bears are perfectly adapted to the sea-ice ecosystem: semi-aquatic, insulated by up to 11 cm of fat and hollow-shafted fur that traps heat. They are the apex predator of the Arctic, hunting ringed and bearded seals at breathing holes and ice leads. The global population of approximately 26,000 individuals across 19 subpopulations is threatened primarily by climate change. Arctic sea ice is declining at about 13% per decade; in Hudson Bay the ice-free season has lengthened by 3–4 weeks since the 1980s, reducing bears' time to hunt seals and forcing longer summer fasting. Eight of 19 subpopulations are in decline.",
+    "images": ["https://images.unsplash.com/photo-1574068468693-c1c62dd2e748?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Polar Bears International science and advocacy programme linking bear survival to climate policy.",
+      "Maternity den remote-sensing programme using forward-looking infrared to protect dens from oil development.",
+      "Nunavut co-management quotas agreed between Inuit communities and federal government."
+    ],
+    "localOrganizationUrl": "https://polarbearsinternational.org/",
+    "aiConservation": "WWF's Earth Observation for Biodiversity team uses ML models on satellite sea-ice concentration data to predict the timing and spatial pattern of spring ice breakup, providing seasonal forecasts for bear habitat availability. AI facial recognition distinguishes individual bears in remote camera trap images, enabling non-invasive population monitoring to replace costly tranquillisation mark-recapture surveys. Drone footage analyzed by computer vision assesses body condition (fat reserves) from a safe distance."
+  },
+  {
+    "id": "animal-po-002",
+    "name": "Narwhal",
+    "scientificName": "Monodon monoceros",
+    "coordinates": [-70.0, 78.0],
+    "starRating": 3,
+    "status": "Least Concern",
+    "shortDesc": "The 'unicorn of the sea' — an Arctic whale with a spiralled tusk that is actually a sensory organ.",
+    "fullDesc": "Narwhals are medium-sized Arctic toothed whales famous for the male's spiralling tusk, which can reach 3 m. The tusk is actually an enlarged canine tooth containing millions of nerve endings; it functions as a sophisticated sensory organ, detecting salinity, pressure and temperature gradients in sea water. They winter under Arctic pack ice, surfacing at cracks to breathe, diving over 1,500 m to feed on Greenland halibut. Their extreme dependence on predictable sea ice makes them highly vulnerable to climate change, which is altering ice dynamics faster than any other ecosystem on Earth. Narwhals are also sensitive to shipping noise and industrial disturbance.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Narwhal_2.jpg/800px-Narwhal_2.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "Canada-Greenland bilateral management agreements and joint survey programmes.",
+      "Inuit community-based monitoring integrating traditional ecological knowledge.",
+      "Noise-impact assessments for Arctic shipping and resource extraction projects."
+    ],
+    "localOrganizationUrl": "https://www.wwf.ca/",
+    "aiConservation": "Passive acoustic monitoring buoys under Arctic ice use ML classifiers trained on narwhal echolocation clicks and whistles to track pod movements through polar night, when aerial surveys are impossible. ML sea-ice predictive models using satellite data forecast winter polynya (open water) locations — crucial information for managing shipping and hydrocarbon exploration near narwhal overwintering areas."
+  },
+  {
+    "id": "animal-ma-001",
+    "name": "Blue Whale",
+    "scientificName": "Balaenoptera musculus",
+    "coordinates": [-140.0, 0.0],
+    "starRating": 5,
+    "status": "Endangered",
+    "shortDesc": "The largest animal ever known to have lived on Earth — over 30 metres long — still recovering from industrial whaling.",
+    "fullDesc": "Blue whales are the largest animals to have ever existed, reaching up to 33 m in length and 190 tonnes. Their hearts alone can weigh 400 kg. They feed almost exclusively on krill, consuming up to 4 tonnes daily. Commercial whaling killed an estimated 360,000 blue whales in the 20th century; the global population was reduced to less than 1% of pre-whaling levels by the time the species was fully protected in 1966. Current estimates suggest 10,000–25,000 individuals remain. Ship strikes and entanglement in fishing gear are now the leading human threats, along with climate-driven changes to krill distribution.",
+    "images": ["https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "IWC commercial whaling moratorium (1986) and CITES Appendix I protection.",
+      "Voluntary whale-safe shipping lanes and speed restrictions in key feeding areas off Sri Lanka and California.",
+      "Acoustic monitoring programmes: Cornell Lab, MBARI and Australian Antarctic Division."
+    ],
+    "localOrganizationUrl": "https://wwf.panda.org/discover/our_focus/oceans_practice/whales/",
+    "aiConservation": "MBARI and Cornell Lab's passive acoustic monitoring arrays process continuous hydrophone data with deep-learning classifiers that detect and geolocate blue whales in real time, providing ship captains with GPS whale-position alerts to avoid collisions — reducing strike risk by up to 90% in pilot zones. ML models fusing satellite oceanography data (sea surface temperature, chlorophyll) with historical blue whale tracks predict daily feeding hotspots to inform dynamic shipping lane management."
+  },
+  {
+    "id": "animal-ma-002",
+    "name": "Vaquita",
+    "scientificName": "Phocoena sinus",
+    "coordinates": [-114.5, 31.0],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "The world's most endangered marine mammal — fewer than 10 individuals survive in the Gulf of California.",
+    "fullDesc": "The vaquita ('little cow' in Spanish) is the smallest cetacean in the world at under 1.5 m. It is endemic to a tiny area of the northern Gulf of California, Mexico. Accidental entanglement in illegal gillnets set for the critically endangered totoaba fish (whose swim bladder is worth more than cocaine on the Chinese black market) has driven the species to the very edge of extinction: a 2023 acoustic survey estimated fewer than 10 individuals remain. The Mexican government has repeatedly announced gillnet bans but enforcement has been inadequate against the powerful totoaba-trafficking syndicates.",
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Vaquita6_Olson_NOAA.jpg/800px-Vaquita6_Olson_NOAA.jpg"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "VaquitaCPR emergency captive-rescue attempt (2017, unsuccessful — species is too fragile to hold in captivity).",
+      "CIRVA (International Recovery Committee) gillnet-removal operations in the refuge zone.",
+      "Mexican Navy and SEMAR patrol vessels enforcing the Upper Gulf refuge zone."
+    ],
+    "localOrganizationUrl": "https://www.iucn.org/species/phocoena-sinus",
+    "aiConservation": "CIRVA's passive acoustic monitoring programme deploys an array of underwater recorders across the vaquita's 30 km refuge zone; deep-learning ML models trained on vaquita echolocation clicks detect each individual animal and estimate population size without any physical contact with the animals. AI optimises Mexican Navy patrol routes to maximise gillnet-removal coverage given limited vessel resources."
+  },
+  {
+    "id": "animal-ma-003",
+    "name": "Hawksbill Sea Turtle",
+    "scientificName": "Eretmochelys imbricata",
+    "coordinates": [-65.0, 17.5],
+    "starRating": 5,
+    "status": "Critically Endangered",
+    "shortDesc": "A critically endangered sea turtle hunted for its beautiful 'tortoiseshell' shell — the world's most trafficked reptile.",
+    "fullDesc": "Hawksbill sea turtles are distinguished by their narrow, pointed beak (used to extract sponges from coral crevices) and their overlapping scutes — the source of 'tortoiseshell' used in jewellery, ornaments and combs. Despite a CITES Appendix I trade ban in 1977, illegal trade continues. They are critical for coral reef health: by controlling sponge populations, they maintain space for corals to grow. Populations have declined by over 80% in the past 100 years. The Caribbean hosts the largest remaining nesting populations. Threats include egg poaching, bycatch, coral reef degradation and plastic ingestion.",
+    "images": ["https://images.unsplash.com/photo-1468126137339-8aba6a7a71af?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "WIDECAST (Wider Caribbean Sea Turtle Conservation Network) nest protection on key beaches.",
+      "CITES enforcement and product-detection training for customs authorities.",
+      "Bycatch reduction devices (BRDs and circle hooks) required in Caribbean fisheries."
+    ],
+    "localOrganizationUrl": "https://www.iucn-mtsg.org/",
+    "aiConservation": "AI computer-vision models analyze coral reef drone and satellite imagery to map sponge-reef habitat quality and track degradation — directly assessing hawksbill feeding-habitat health. ML-powered photo-identification systems match individual turtles from citizen-diver underwater photographs, building a global database of individuals to track lifelong movements without physical tagging. Satellite track ML models predict bycatch hotspots for targeted gear-modification outreach."
+  },
+  {
+    "id": "animal-ma-004",
+    "name": "Whale Shark",
+    "scientificName": "Rhincodon typus",
+    "coordinates": [80.0, 5.0],
+    "starRating": 4,
+    "status": "Endangered",
+    "shortDesc": "The world's largest fish — a gentle filter-feeder whose spotted coat is as unique as a fingerprint.",
+    "fullDesc": "Whale sharks are the largest extant fish, reaching up to 18 m and an estimated 19 tonnes. Despite their enormous size they are harmless filter-feeders, straining plankton, fish eggs and small fish through gill rakers. They are circumtropical, found in warm seas worldwide, with aggregation hotspots at Ningaloo Reef (Australia), the Maldives, Oslob (Philippines) and Donsol (Philippines). Each whale shark has a unique pattern of white spots, like a stellar map, that can be used for individual identification. They are Endangered: over a million were killed in Chinese fisheries before the ban in 2000; current threats include ship strikes, fishing line entanglement and climate-driven planktonic prey loss.",
+    "images": ["https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800"],
+    "videoUrl": null,
+    "conservationEfforts": [
+      "China's domestic whale shark trade ban (2000) and CITES Appendix II listing.",
+      "Whale Shark Research Programme (WSRP) satellite-tagging at Ningaloo and Donsol.",
+      "Responsible whale-shark tourism protocols to prevent harassment and propeller injury."
+    ],
+    "localOrganizationUrl": "https://www.whaleshark.org/",
+    "aiConservation": "Wildbook for Whale Sharks (wildbook.org) uses a NASA star-pattern recognition algorithm adapted by Wild Me to match individual whale sharks from citizen-diver photographs, building a database of over 12,000 identified individuals and their global movement histories. ML models applied to satellite sea-surface temperature and chlorophyll data predict seasonal aggregation timing and location, helping tourism operators find sharks non-invasively and guiding shipping-lane safety measures."
   },
   {
     "id": "animal-uk-001",
@@ -96,7 +868,8 @@
       "Scottish Wildcat Action: trap-neuter-vaccinate-release of feral cats in priority areas.",
       "Captive breeding and reinforcement plans; habitat protection in the Highlands."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Camera-trap images across the Cairngorms are analyzed by deep-learning hybridisation-scoring models that assess the degree of domestic cat introgression in each photographed individual, prioritising pure wildcats for protection. ML models of feral-cat density and movement guide the placement of trap-neuter-vaccinate zones."
   },
   {
     "id": "animal-uk-002",
@@ -113,7 +886,8 @@
       "Grey squirrel control and monitoring in red squirrel areas.",
       "Reforestation and habitat connectivity; Red Squirrel Survival Trust and local groups."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Automated camera-trap stations along grey squirrel boundaries use AI species classifiers to trigger targeted grey squirrel trap activation while leaving red squirrels undisturbed. ML models of squirrelpox antibody prevalence data predict disease spillover hotspots for pre-emptive grey squirrel culling operations."
   },
   {
     "id": "animal-uk-003",
@@ -130,7 +904,8 @@
       "Creation and restoration of breeding pools; habitat management on heath and dunes.",
       "Translocation and reintroduction schemes; monitoring by Amphibian and Reptile Conservation."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Automated acoustic recording units detect natterjack calls (the loudest of any European amphibian) in breeding pools with ML audio classifiers, allowing nationwide population surveys without observers disturbing sensitive habitats at night. Satellite-derived coastal inundation models predict breeding-pool flooding risk under sea-level rise scenarios."
   },
   {
     "id": "animal-uk-004",
@@ -147,7 +922,8 @@
       "National Dormouse Monitoring Programme; nest box schemes and habitat restoration.",
       "Hedgerow and woodland management guidance; reintroductions to restored sites."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI image recognition applied to nest-box inspection photographs automates dormouse presence/absence recording, scaling up the National Dormouse Monitoring Programme across thousands of sites without expert observer visits. ML landscape connectivity models identify priority hedgerow and woodland corridors for replanting to link isolated dormouse populations."
   },
   {
     "id": "animal-uk-005",
@@ -164,7 +940,8 @@
       "Reintroduction projects in Wales (Vincent Wildlife Trust) and England.",
       "Forest protection and connectivity; citizen science and camera-trap monitoring."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI camera-trap identification distinguishes pine martens from similar species (polecats, stoats) for accurate distribution mapping across reintroduction sites. ML models integrating camera-trap density data, forest-cover maps and grey squirrel abundance predict where pine marten reintroduction will most effectively suppress grey squirrels, benefiting red squirrel conservation."
   },
   {
     "id": "animal-uk-006",
@@ -181,7 +958,8 @@
       "Heathland and dune restoration; creation of egg-laying banks.",
       "Reintroduction to former sites; monitoring by Amphibian and Reptile Conservation."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Computer vision models applied to handheld camera images automatically sex and age sand lizards, accelerating population structure surveys at reintroduction sites. Remote-sensing ML models map bare-sand microhabitat extent across heathland sites, guiding targeted habitat management for egg-laying banks."
   },
   {
     "id": "animal-uk-007",
@@ -198,7 +976,8 @@
       "Legal protection from capture, injury and disturbance; Marine Conservation Zones.",
       "Research and tagging by the Marine Conservation Society and others."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Citizen science photographs of basking shark dorsal fins and caudal fins submitted to a national database are processed by ML individual-ID algorithms to track individual sharks across UK waters. Satellite sea-surface temperature and chlorophyll AI models predict arrival timing and hotspot locations at aggregation sites, helping Marine Conservation Zones focus enforcement effort."
   },
   {
     "id": "animal-uk-008",
@@ -215,7 +994,8 @@
       "Grazing and habitat management to support the host ant Myrmica sabuleti.",
       "Reintroduction programme led by the Royal Society of Wildlife Trusts and partners."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Automated sensor arrays measure soil temperature at ant-nest depth on reintroduction sites; ML models calibrated on ant-abundance surveys predict Myrmica sabuleti colony density, guiding the optimal grazing intensity needed to maintain suitable conditions. AI wing-pattern identification tools assist citizen scientists in verifying large blue sightings, improving distribution records."
   },
   {
     "id": "animal-uk-009",
@@ -232,7 +1012,8 @@
       "River restoration and reduction of sedimentation; catchment-scale water quality work.",
       "Captive breeding and restocking; partnership projects (e.g. Pearls in Peril)."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "ML models integrating long-term river water-quality sensor networks (turbidity, phosphate, temperature) predict catchment conditions that threaten juvenile mussel survival, enabling pre-emptive engagement with upstream land managers. AI satellite imagery analysis detects riparian vegetation loss and agricultural runoff pathways, prioritising river restoration effort."
   },
   {
     "id": "animal-uk-010",
@@ -249,7 +1030,8 @@
       "Legal protection; habitat management for basking and hibernation sites.",
       "Awareness campaigns to reduce persecution; recording via Amphibian and Reptile Conservation."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI computer-vision tools enable citizen scientists to submit adder photos via a smartphone app that automatically identifies the species, sex and records GPS location, dramatically improving the resolution of national distribution maps. ML thermal-microhabitat models guide heathland management to maintain optimal basking-site availability."
   },
   {
     "id": "animal-uk-011",
@@ -266,7 +1048,8 @@
       "Hedgehog Street and garden connectivity campaigns; wildlife-friendly gardening.",
       "Research and monitoring (e.g. PTES); rescue and rehabilitation networks."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "The Peoples' Trust for Endangered Species runs a citizen-science app where members of the public photograph hedgehogs; AI species classifiers distinguish hedgehogs from other small mammals and extract GPS coordinates, building a national population map in near real time. ML urban-heat and garden-fragmentation models identify neighbourhoods for targeted hedgehog highway (fence hole) campaigns."
   },
   {
     "id": "animal-uk-012",
@@ -283,7 +1066,8 @@
       "Heathland restoration and management; protection from development.",
       "Monitoring and research; strict legal protection under UK and EU law."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI image classifiers in a citizen science app distinguish smooth snakes from similar species (slow worm, grass snake) automatically, improving the accuracy of the national reptile atlas. Remote-sensing ML models map heathland structural diversity — a proxy for smooth snake habitat quality — across all known sites to guide management prescriptions."
   },
   {
     "id": "animal-uk-013",
@@ -300,7 +1084,8 @@
       "Mink control and habitat restoration along waterways.",
       "Reintroductions and monitoring; Wildlife Trusts water vole projects."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI-powered camera traps on mink rafts along water vole rivers automatically identify American mink triggering the trap mechanism while recording all water vole activity. ML mink spread models integrating river-network connectivity data predict where mink will colonise next, guiding proactive mink-control operations before water vole populations collapse."
   },
   {
     "id": "animal-uk-014",
@@ -317,7 +1102,8 @@
       "River and wetland restoration; reduction of pollution and disturbance.",
       "Monitoring and surveys; protection of holt sites."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI acoustic identification of otter spraints (droppings) presence/absence combined with environmental DNA (eDNA) analysis automated by ML is expanding the national otter survey far beyond what traditional survey methods allow. Water-quality ML models forecast pollution events that could deplete otter prey, triggering pre-emptive alerts to the Environment Agency."
   },
   {
     "id": "animal-uk-015",
@@ -334,7 +1120,8 @@
       "Pond creation and restoration; terrestrial habitat management.",
       "Planning and development advice; licensing and mitigation."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "Environmental DNA (eDNA) water tests analyzed by ML predictive models replace time-consuming underwater torch surveys, detecting great crested newt presence from a single water sample with over 99% accuracy. This has transformed development planning — assessments that took months now take weeks, with higher reliability. AI pond-habitat quality models guide landscape-scale pond creation for district-level licensing schemes."
   },
   {
     "id": "animal-uk-016",
@@ -351,7 +1138,8 @@
       "Protection of wetlands and grassland; creation of egg-laying sites.",
       "Awareness and recording; reserve management."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "AI species classifiers embedded in national wildlife-recording apps (iRecord, iNaturalist UK) automatically verify grass snake photo submissions, improving distribution atlas data quality. Landscape connectivity ML models identify 'snake deserts' in urban and agricultural areas, prioritising green-infrastructure investment for reptile corridor creation."
   },
   {
     "id": "animal-uk-017",
@@ -368,7 +1156,8 @@
       "Legal protection of setts; vaccination programmes where appropriate.",
       "Campaigning and awareness; mitigation for development."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "ML epidemiological models integrating bTB prevalence, badger density (from sett surveys) and cattle-herd movement data model disease transmission dynamics, informing evidence-based decisions on vaccination zones. AI camera-trap systems monitor sett activity and badger health remotely, detecting signs of disease or persecution without disturbing sett entrances."
   },
   {
     "id": "animal-uk-018",
@@ -385,6 +1174,7 @@
       "Licensed reintroductions and enclosed trial projects.",
       "Monitoring and research; flood and habitat benefits."
     ],
-    "localOrganizationUrl": "https://www.wildlifetrusts.org/"
+    "localOrganizationUrl": "https://www.wildlifetrusts.org/",
+    "aiConservation": "ML hydrological models trained on lidar terrain data and historic flood records predict which river catchments would benefit most from beaver-dam creation for natural flood management, prioritising future reintroduction sites. AI analysis of aerial and drone imagery monitors dam construction, pond expansion and wetland creation at beaver trial sites, quantifying ecosystem service delivery."
   }
 ]

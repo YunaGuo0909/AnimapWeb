@@ -11,6 +11,7 @@ export interface Animal {
   videoUrl: string | null;
   conservationEfforts: string[];
   localOrganizationUrl: string | null;
+  aiConservation: string | null; // How AI is being used to help protect this species
 }
 
 export type AnimalStatusLevel = "critical" | "endangered" | "vulnerable" | "near_threatened" | "least_concern" | "other";

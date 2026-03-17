@@ -2,7 +2,7 @@
 
 import { type Animal, getStatusLevel } from "@/types/animal";
 import { cn } from "@/lib/utils";
-import { X, ExternalLink, AlertTriangle } from "lucide-react";
+import { X, ExternalLink, AlertTriangle, Brain } from "lucide-react";
 import Image from "next/image";
 
 /* IUCN-style: higher risk = red, middle = yellow, lower risk = green */
@@ -91,6 +91,17 @@ export function AnimalDetail({ animal, onClose }: AnimalDetailProps) {
                   <li key={i}>{effort}</li>
                 ))}
               </ul>
+            </div>
+          )}
+
+          {/* AI conservation */}
+          {animal.aiConservation && (
+            <div className="rounded-lg border border-violet-500/30 bg-violet-500/10 p-3">
+              <h3 className="text-sm font-medium text-violet-300 mb-2 flex items-center gap-2">
+                <Brain className="w-4 h-4 text-violet-400" />
+                AI-powered conservation
+              </h3>
+              <p className="text-sm text-violet-200/80 leading-relaxed">{animal.aiConservation}</p>
             </div>
           )}
 

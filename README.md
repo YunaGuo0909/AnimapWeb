@@ -28,16 +28,61 @@ A Next.js + Mapbox site for exploring endangered and protected species worldwide
    ```
    Open http://localhost:3000
 
+## Deploy to Vercel (share with others)
+
+The quickest way to make the site publicly accessible is to deploy it on [Vercel](https://vercel.com) — free for personal projects.
+
+1. Push this repo to GitHub (create a new repo on github.com, then `git remote add origin <url> && git push -u origin main`).
+2. Go to [vercel.com](https://vercel.com) → **Add New Project** → import your GitHub repo.
+3. In the **Environment Variables** panel, add:
+   ```
+   NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN = pk.xxx...your token
+   ```
+4. Click **Deploy**. Vercel will build and give you a live public URL (e.g. `animap.vercel.app`).
+
+Any future `git push` to `main` triggers an automatic rebuild and redeploy — no manual steps needed.
+
+> **Note**: Your Mapbox token is only used on the client side (it starts with `NEXT_PUBLIC_`). Mapbox tokens can be scope-restricted (allowed URLs) in the Mapbox dashboard — set the allowed URL to your Vercel domain for security.
+
+---
+
 ## Features
 
+- **63 species, 7 regions**: Asia, Africa, Americas, Europe, Oceania, Polar and Marine — plus 18 UK species
 - **World map**: All species as markers; list sorted by IUCN status and distance
 - **Click map**: Left panel shows species near the clicked area (distance + IUCN priority)
-- **Click marker/list item**: Right panel shows species details (name, scientific name, photo, video, IUCN status, conservation efforts, local org link)
+- **Click marker/list item**: Right panel shows species details:
+  - Real wildlife photographs
+  - Scientific name, IUCN status badge
+  - Full scientific description
+  - YouTube video (where available)
+  - Current conservation efforts
+  - **AI-powered conservation** — how machine learning and computer vision are being used for each species
+  - Link to local wildlife organisation
 - **Status colors**: IUCN-style red (highest risk) → yellow (middle) → green (least concern)
 
 ## Data format
 
-See `src/types/animal.ts` and `src/data/animals.json`. Each animal has: coordinates, starRating (sort priority), status (IUCN or official), shortDesc, fullDesc, images, videoUrl, conservationEfforts, localOrganizationUrl.
+See `src/types/animal.ts` and `src/data/animals.json`. Each animal has: coordinates, starRating (sort priority), status (IUCN or official), shortDesc, fullDesc, images, videoUrl, conservationEfforts, localOrganizationUrl. The list is a **flat array** `[{...}, {...}]` — this is intentional and matches the shape that a real database or API would return later.
+
+## Data flow: one place to change the source
+
+All species data is loaded via **`getAnimalData()`** in `src/lib/animalData.ts`. The map and sidebar call this; they do not read JSON or API directly. To switch to a database or external API later, you only change that function (and/or the `/api/animals` route it calls).
+
+- **Phase 1 (current)**: Mock data in `animals.json` → API route merges IUCN cache → `getAnimalData()` fetches from `/api/animals`.
+- **Phase 2**: Point `getAnimalData()` at Supabase/Firebase, or make `/api/animals` read from your DB.
+- **Phase 3**: Call external APIs (IUCN, GBIF) inside the API route or inside `getAnimalData()`, and merge with your own data.
+
+## How to use external data sources (e.g. IUCN, wildlife sites)
+
+1. **Official API (recommended)**  
+   Use the site’s API (e.g. IUCN Red List API). We already support this via `npm run fetch-iucn` and `iucn-cache.json`. You can add more APIs in `src/app/api/animals/route.ts` or in `getAnimalData()` and merge results.
+
+2. **Scraping**  
+   If a site has no API, you can run a one-off script (Node or Python) to scrape pages and output JSON, then import that into `animals.json` or into your database. Respect the site’s terms and robots.txt.
+
+3. **Your own “cloud table” (e.g. Supabase)**  
+   Put species in a Supabase table (like a spreadsheet). Then in `getAnimalData()` or in `/api/animals`, query Supabase instead of reading `animals.json`. The UI stays the same; only the data layer changes.
 
 ## Is using a JSON file normal?
 
