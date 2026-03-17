@@ -13,6 +13,7 @@ import { getStatusLevel } from "@/types/animal";
 import { distanceKm } from "@/lib/utils";
 import { AnimalDetail } from "./AnimalDetail";
 import { AnimalListPanel } from "./AnimalListPanel";
+import { getAnimalData } from "@/lib/animalData";
 import { cn } from "@/lib/utils";
 
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || "";
@@ -39,9 +40,8 @@ export function WildlifeMap() {
   const [hoverAnimalId, setHoverAnimalId] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/api/animals")
-      .then((r) => r.json())
-      .then((data: Animal[]) => setAnimals(data))
+    getAnimalData()
+      .then(setAnimals)
       .catch(() => setAnimals([]));
   }, []);
 
@@ -113,11 +113,12 @@ export function WildlifeMap() {
               setSelectedAnimal(animal);
               setClickedLngLat(animal.coordinates);
             }}
-            onMouseEnter={() => setHoverAnimalId(animal.id)}
-            onMouseLeave={() => setHoverAnimalId(null)}
+            
           >
             <button
               type="button"
+              onMouseEnter={() => setHoverAnimalId(animal.id)}  
+              onMouseLeave={() => setHoverAnimalId(null)}       
               className={cn(
                 "w-2.5 h-2.5 min-w-[10px] min-h-[10px] rounded-full border border-background shadow transition transform",
                 selectedAnimal?.id === animal.id
